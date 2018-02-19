@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Chart full Size</title>
+<script type="text/javascript" src="script/jquery-1.7.1-min.js"></script>
+<script type="text/javascript" src="script/highcharts/js/highcharts.js"></script>
+<script type="text/javascript" src="script/highcharts/js/modules/exporting.js"></script>
+									
+</head>
+<body>
+
+<div id="container" style="min-width: 400px; height: 650; margin: 0 auto"></div>
+
+<script>
+var chart;
+
+$(document).ready(function() {
+    
+    var mychart=window.opener.generalPurposeGlobalVar;
+    console.log(mychart);
+
+    mychart.options.chart.renderTo= 'container';
+    chart = new Highcharts.Chart(mychart.options);
+    chart.xAxis=mychart.xAxis;
+    chart.yAxis=mychart.yAxis;
+    chart.series=mychart.series;
+    chart.redraw;
+
+    
+});
+</script>
+</body>
+</html>

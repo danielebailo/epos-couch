@@ -1,0 +1,9 @@
+
+{
+    "_id": "org.couchdb.user:denmark",
+    "name": "denmark",
+    "type": "user",
+    "roles": [""],
+    "password_sha": "794354835926161be82a54f42fec0a66597a7176",
+    "salt": "3185f2fb2931d902cf54c23448afd8d6"
+}

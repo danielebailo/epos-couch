@@ -1,0 +1,35 @@
+{
+    "cloudant": {
+        "nobody": ["_reader", "_writer", "_admin"]
+    },
+    "readers": {
+        "names": [],
+        "roles": []
+    },
+    "writers": {
+        "names": [
+			"italy",
+			"switzerland",
+			"czech_republic",
+			"germany",
+			"spain",
+			"france",
+			"greece",
+			"ireland",
+			"netherlands",
+			"norway",
+			"portugal",
+			"poland",
+			"romania",
+			"sweden",
+			"turkey",
+			"united_kingdom",
+			"denmark"
+			],
+        "roles": []
+    },
+    "admins": {
+        "names": ["epos-couch"],
+        "roles": []
+    }
+}

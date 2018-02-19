@@ -1,0 +1,88 @@
+{
+   "doctype": "ri",
+   "file_path": "EPOS-I-WG6-INGV_LAB.docx",
+   "ri_name": "INGV Paleomagnetism Laboratory",
+   "ri_type": "analytical and exp....",
+   "country": "italy",
+   "ri_institution":"University of ROMA tre",
+   "ri_website":"www.tecnet.cz",
+   "wg_main": 6,
+   "wg_related": [ 2],
+   "ri_manager": "Josef Stemberk",
+   "ri_manager_email": "stemberk@irsm.cas.cz",
+   "ri_manager_phone": "+420 266009350",
+   "ri_manager_institution": "Institute of Rock Structure and Mechanics, Academy of Sciences CR, Prague",
+   "national_contact_person": "Jan Zednik",
+   "national_contact_person_email": "jzd@ig.cas.cz",
+   "national_contact_person_phone": "+420-267103015",
+   "national_contact_person_institution": "IGASCR",
+   "legal_contact_person": "Pavel Hejda",
+   "legal_contact_person_email": "ph@ig.cas.cz",
+   "legal_contact_person_phone": "+420 267103 339",
+   "legal_contact_person_institution": "IGASCR",
+   "financial_contact_person": "Marta Tuckova",
+   "financial_contact_person_email": "tuckova@ig.cas.cz",
+   "financial_contact_person_phone": "",
+   "financial_contact_person_institution": "IGASCR"
+},
+
+{
+   "_id": "d6a4658c1e6c976ea3f189649f174768",
+   "_rev": "18-0ba90434fe1707ce17e92ff79fef4f0c",
+   "ri_name": "SDS net",
+   "facility_type": "seismic network",
+   "kind": "permanent",
+   "quantity": "",
+   "equipment": [
+       {
+           "type": "broadband",
+           "brand": "",
+           "specifics": "",
+           "quantity": 34
+       },
+       {
+           "type": "shortperiod",
+           "brand": "",
+           "specifics": "",
+           "quantity": 10
+       },
+       {
+           "type": "accelerometer",
+           "brand": "",
+           "specifics": "",
+           "quantity": 0
+       }
+   ],
+   "purchase_value": "",
+   "year_of_acquisition": "",
+   "location": "",
+   "coverage": [
+       "national"
+   ],
+   "site_of_study": "",
+   "specifics": "",
+   "other_details": "",
+   "data_type": [
+       "timeseries"
+   ],
+   "data_format": [
+       "miniSEED",
+       "gse2"
+   ],
+   "data_transmission": "realtime high bandwidth internet communications",
+   "data_policy": "open",
+   "doctype": "facility",
+   "status": "",
+   "wg_related": [
+   ],
+   "ri_manager_institution": "",
+   "national_contact_person": "",
+   "national_contact_person_email": "",
+   "national_contact_person_phone": "",
+   "national_contact_person_institution": "",
+   "legal_contact_person": "",
+   "legal_contact_person_email": "",
+   "legal_contact_person_phone": "",
+   "legal_contact_person_institution": "",
+   
+}
