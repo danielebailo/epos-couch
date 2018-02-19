@@ -1,0 +1,91 @@
+{
+    "docs": [
+        {
+
+            "ri_name": "SIR2",
+            "type": "seismic station",
+            "kind": "temporary",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 20
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 8
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 60
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local",
+                "mobile"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries 100sps"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+
+            "ri_name": "SIR1",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 25
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 6
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "regional"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "Archived data are open. Data in real time are open on bilateral agreements.",
+            "doctype": "facility",
+            "status": ""
+        }
+   ]
+}

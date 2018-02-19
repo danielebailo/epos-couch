@@ -1,0 +1,4810 @@
+{
+
+    "docs": [
+        {
+            "_id": "9c19586300bda1b004bf5b00a0038464",
+            "_rev": "4-724dce695b43c256fa218cebca465e61",
+            "ri_name": "Italian mobile seismic network",
+            "type": "seismic station",
+            "kind": "temporary",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 20
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 8
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 60
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local",
+                "mobile"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries 100sps"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0039294",
+            "_rev": "4-bbe2e58b7f3fa40388e8af8a8b270e52",
+            "ri_name": "Mediterrean Network (MEDNET)",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 25
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 6
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "regional"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "Archived data are open. Data in real time are open on bilateral agreements.",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0039ce6",
+            "_rev": "4-7768a551021796fdda1cd7e0326185c2",
+            "ri_name": "Italian Seismic network",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 220
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 60
+                },
+                {
+                    "type": "GPS",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 100
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries 100sps"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "Archived data are open. Data in real time are open on bilateral agreements.",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003a50e",
+            "_rev": "4-18b380357f0920760070261973fe6e9a",
+            "ri_name": "INGV - OV Seismic network",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 41
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 28
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 2
+                },
+                {
+                    "type": "infrasound",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 13
+                },
+                {
+                    "type": "hy",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 2
+                },
+                {
+                    "type": "borehole",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 7
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "raw data",
+                " catalogue",
+                "RSAM",
+                "spectrum",
+                "polarization",
+                "noise levels"
+            ],
+            "data_format": [
+                "miniSEED",
+                "SAC"
+            ],
+            "data_transmission": "",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003a568",
+            "_rev": "4-c138feba8f7bacffc16d81a79ccb4021",
+            "ri_name": "SISMOS",
+            "type": "seismic station",
+            "kind": "",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "Eskoscan",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 3
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "global"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "images"
+            ],
+            "data_format": [
+                ""
+            ],
+            "data_transmission": "",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003a578",
+            "_rev": "4-884c3058fb582c533c30eca5ef20ca26",
+            "ri_name": "Italian Distributed Archive database",
+            "type": "seismic station",
+            "kind": "",
+            "quantity": "",
+            "equipment": [
+                ""
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [ ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "images",
+                "documents",
+                "parametric data"
+            ],
+            "data_format": [
+                "in-house"
+            ],
+            "data_transmission": "",
+            "data_policy": "open or restricted",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003a9e4",
+            "_rev": "4-1737b5efd719ff3aeabd8c23e6004aec",
+            "ri_name": "Seis-UK",
+            "type": "seismic station",
+            "kind": "temporary",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 104
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 112
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "mobile"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "miniSEED SEG-Y"
+            ],
+            "data_transmission": "",
+            "data_policy": "open after 3y",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003ad24",
+            "_rev": "4-49af61a2cedfa791b02b0853abe4d5cf",
+            "ri_name": "UK seismological network",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 34
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 68
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 24
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "Real time data transmission using ADSL broadband, 3G or Satellite Internet connections",
+            "data_policy": "Open access for academic research",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003b1e0",
+            "_rev": "4-df57b94cee55912ee5982ffbb2a6915d",
+            "ri_name": "Turkey Regional seismology weak motion",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 94
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric"
+            ],
+            "data_format": [
+                "GCF",
+                "SAC"
+            ],
+            "data_transmission": "GPRS (Edge)",
+            "data_policy": "open after 3y",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003bacf",
+            "_rev": "4-fed4ac03f591fa3c134aa7bcb4c45575",
+            "ri_name": "Turkey National seismology network 01",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 108
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 22
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric"
+            ],
+            "data_format": [
+                "SAC"
+            ],
+            "data_transmission": "Satellite",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003c1b9",
+            "_rev": "4-b4ff29bf26ca5401d14db92514850528",
+            "ri_name": "Turkey National seismology network 02",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 91
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 56
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric"
+            ],
+            "data_format": [
+                "international standard",
+                " GCF"
+            ],
+            "data_transmission": "Satellite",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003ccb8",
+            "_rev": "4-9e86b52aefca15b5c9800d879e3e9068",
+            "ri_name": "SNSN",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 63
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "regional"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric"
+            ],
+            "data_format": [
+                "international standard"
+            ],
+            "data_transmission": "Satellite",
+            "data_policy": "open agreements",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003d8bd",
+            "_rev": "4-05015e543d14a83e8cdcc569fa9afba9",
+            "ri_name": "Romanian seismic network and NIEP accelerometer network",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 87
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 115
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national",
+                "array"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "Real time using seedlink2seedlink or orb2orb connection",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003dd30",
+            "_rev": "4-8f13c7c08c89148f4274c07d19ce8459",
+            "ri_name": "PLSN (IRIS CODE PL)",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 8
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 1
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003e7ee",
+            "_rev": "4-d8c5682a95533ae1296d26ab06ba8c06",
+            "ri_name": "IRIS network code: PD",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 24
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 1
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "GPRS",
+            "data_policy": "restricted",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003eabd",
+            "_rev": "5-f638885073b8fec9dffd557f9d2b16f2",
+            "ri_name": "Polish Permanent short period seismic network",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 10
+                },
+                {
+                    "type": "GPS",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 10
+                },
+                {
+                    "type": "Calibration system",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 1
+                },
+                {
+                    "type": "RotWaves Station",
+                    "brand": "",
+                    "specifics": "mobile station to record rotational waves",
+                    "quantity": 2
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "GSM",
+            "data_policy": "restricted",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003f285",
+            "_rev": "4-be82d79f666bbfd7d9952869b8b9e5ca",
+            "ri_name": "Geophysical Institute of the University of Cohimbra",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 1
+                },
+                {
+                    "type": "?",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 1
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a003ffe0",
+            "_rev": "5-3219e1c5f46ef5a27e2182d70e71a0bd",
+            "ri_name": "Geoseas",
+            "type": "seismic station",
+            "kind": "",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "Marine Geo DC",
+                    "brand": "",
+                    "specifics": "marine geological and geophysical data centres",
+                    "quantity": 26
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "regional"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "seismic profiles",
+                "bathymetrica data",
+                "geochemical analyses",
+                " images, maps"
+            ],
+            "data_format": [
+                "international standard"
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a00400e5",
+            "_rev": "4-756874501c9c3d860beda0c5cf498516",
+            "ri_name": "Navigators network",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 5
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "open Orfeus",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0040812",
+            "_rev": "4-ece7410525a83a362e8cc2628c7bb362",
+            "ri_name": "Portugese Seismic ?",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 21
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric"
+            ],
+            "data_format": [
+                "international standard",
+                "SEED"
+            ],
+            "data_transmission": "through VSAT & Internet",
+            "data_policy": "partially open in real-time to community; fully available for research projects (on-request)",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0040959",
+            "_rev": "4-3f27d6356a297c202f5be985844d1d8f",
+            "ri_name": "STIFTELSEN NORSAR",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 14
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 70
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "array"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric"
+            ],
+            "data_format": [
+                "GSE",
+                "miniSEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "open on request",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0040bc1",
+            "_rev": "4-82500cbaf3c56deb16b75281f47b1768",
+            "ri_name": "Norwegian National Seismic Network (NNSN)",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 15
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 17
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "regional"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric"
+            ],
+            "data_format": [
+                "seisan",
+                "miniSEED"
+            ],
+            "data_transmission": "real-time (GSM, Internet, ADSL",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0041659",
+            "_rev": "4-4c0e8c5c39d33b254e4d22febab35f72",
+            "ri_name": "NARS",
+            "type": "seismic station",
+            "kind": "temporary",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 31
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "mobile??"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "SEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "free access via protocols of international data centres",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0041e4f",
+            "_rev": "4-170737f471410a802d3ec4a4a198c1dc",
+            "ri_name": "GeoLOFAR",
+            "type": "seismic station",
+            "kind": "",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "?",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 245
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local",
+                "array"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "binary"
+            ],
+            "data_transmission": " Data transmission over glass-fibre network",
+            "data_policy": "For partners of the LOFAR consortium open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0042508",
+            "_rev": "4-3b1395296014da0016f1b223de0f5b73",
+            "ri_name": "ORFEUS DATACENTRE",
+            "type": "",
+            "kind": "",
+            "quantity": "",
+            "equipment": [ ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "global"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric"
+            ],
+            "data_format": [
+                "international standard",
+                "SEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "datacentre",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0042649",
+            "_rev": "4-37f4070c49d35b099a4b2901b09078bb",
+            "ri_name": "Marine reseach vessels",
+            "type": "seismic station",
+            "kind": "",
+            "quantity": "",
+            "equipment": [ ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [ ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [ ],
+            "data_format": [ ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a00428ad",
+            "_rev": "4-dbbaaaaba450096df4083352634075c5",
+            "ri_name": "RV Keary",
+            "type": "seismic station",
+            "kind": "",
+            "quantity": "",
+            "equipment": [ ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [ ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [ ],
+            "data_format": [ ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a00432ad",
+            "_rev": "4-934ddbd40c10e9177d68c476e27c7b58",
+            "ri_name": "Mobile seismic network",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 35
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "internatioal standard"
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0043ef6",
+            "_rev": "4-0943aedcd1d59e8475328988cd71bec0",
+            "ri_name": "Seismic network",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 5
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "internatioal standard"
+            ],
+            "data_transmission": "internet, real-time",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0044491",
+            "_rev": "4-ad6f9fa9c6c0aba6e5be48ce58e8cf2e",
+            "ri_name": "EUROSEISTEST",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 40
+                },
+                {
+                    "type": "SAA",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 3
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "images",
+                "maps"
+            ],
+            "data_format": [
+                "SAC",
+                "ASCII"
+            ],
+            "data_transmission": "wired communication through the National Telecommunication Organization,2) mobile wireless communication through data/voice NOKIA 30 modems3) RS232 data transfer",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0044ede",
+            "_rev": "4-97a7ff2953d6a4ed25231e450988779f",
+            "ri_name": "Geophysics and seismology laboratory of the technological educational institute of Crete (LGS-TEICR)",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 23
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 13
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 14
+                },
+                {
+                    "type": "GS+geophones",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 3
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local",
+                "mobile"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "events",
+                "parametric data"
+            ],
+            "data_format": [
+                "commercial"
+            ],
+            "data_transmission": "wired (ADSL over ISDN),wireless (Satellite, 3G/GPRS, WiFi, RF)",
+            "data_policy": "on request",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "9c19586300bda1b004bf5b00a0045dcb",
+            "_rev": "5-44d916864c5c3efa9761e2795839ead5",
+            "ri_name": "greece unknown",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 1
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [ ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [ ],
+            "data_format": [
+                ""
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0f9dd0",
+            "_rev": "5-0d2283e4777fd6387c54967bb2a928c6",
+            "file_path": "EPOS-CH-WG1_ETH_Seismology.pdf",
+            "ri_name": "SDS net",
+            "type_of_ri": "Broadband and short period seismic network",
+            "country": "Switzerland",
+            "lead_institution": "ETHZ",
+            "contact_name": "Domenico Giardini",
+            "email": "giardini@sed.ethz.ch",
+            "phone": "+41-44-6332610",
+            "website": "www.seismo.ethz.ch",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0fadb8",
+            "_rev": "5-e93ce3dd434e27fb48c66f06a0843fe5",
+            "file_path": "EPOS-CH-WG1_ETH_Seismology.pdf",
+            "ri_name": "Swiss strong motion network",
+            "type_of_ri": "Strong motion seismic network",
+            "country": "Switzerland",
+            "lead_institution": "ETHZ",
+            "contact_name": "Domenico Giardini",
+            "email": "giardini@sed.ethz.ch",
+            "phone": "+41-44-6332610",
+            "website": "www.seismo.ethz.ch",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0fb9da",
+            "_rev": "5-067b5d038682d0bda7c00f1fe45f0f59",
+            "file_path": "EPOS-CZ-WG1-FMP-CU-SSC.doc",
+            "ri_name": "Seismologial software center",
+            "type_of_ri": "e-infrastructure",
+            "country": "Czech Rep.",
+            "lead_institution": "ASCR",
+            "contact_name": "Ludek Klimes",
+            "email": "",
+            "phone": "",
+            "website": "http://epos-eu.cz/ssc",
+            "wg": "1, 7",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0fbda5",
+            "_rev": "5-4277cc332da95e425719780ae7a13dfb",
+            "file_path": "EPOS-CZ-WG1-IG-ASCR-CRSN.doc",
+            "ri_name": "Czech regional seismic center",
+            "type_of_ri": "seismic network",
+            "country": "Czech Rep.",
+            "lead_institution": "ASCR",
+            "contact_name": "Jan Zednik",
+            "email": "jzd@ig.cas.cz",
+            "phone": "+420-267103015",
+            "website": "www.ig.cas.cz",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0fc2af",
+            "_rev": "5-b6944a209a3f2201f288a58aa13a3355",
+            "file_path": "EPOS-CZ-WG1-IG-ASCR-mobnet.doc",
+            "ri_name": "Mobile seismic network (mobnet)",
+            "type_of_ri": "Mobile seismic network",
+            "country": "Czech Rep.",
+            "lead_institution": "ASCR",
+            "contact_name": "Vaclav Vavrycuk",
+            "email": "www.ig.cas.cz",
+            "phone": "",
+            "website": "",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0fc9b8",
+            "_rev": "5-5ea74d2a2f87e613e62ec208845bbe5f",
+            "file_path": "EPOS-CZ-WG1-IG-ASCR-Webnet.doc",
+            "ri_name": "West Bohemia Seismic network (Webnet)",
+            "type_of_ri": "Local seismic network",
+            "country": "Czech Rep.",
+            "lead_institution": "ASCR",
+            "contact_name": "Josef Horalek",
+            "email": "jhr@ig.cas.cz",
+            "phone": "",
+            "website": "",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0fced6",
+            "_rev": "5-b32fbc684737cf37584f0a37a26d5566",
+            "file_path": "EPOS-CZ-WG1-IPE-NorthMoravia.doc",
+            "ri_name": "Local seismic network norther Moravia (Masaryk Univ.)",
+            "type_of_ri": "seismic network",
+            "country": "Czech Rep.",
+            "lead_institution": "ASCR",
+            "contact_name": "Zdenka Sykorova",
+            "email": "",
+            "phone": "",
+            "website": "www.ipe.muni.cz",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0fd5d9",
+            "_rev": "5-1cdfcfdba53e59243c884acc2a7a4ef8",
+            "file_path": "EPOS-CZ-WG1-IRSM-ASCR-EastBohemia.doc",
+            "ri_name": "Local se¡smic array Provadia",
+            "type_of_ri": "Local seismic array",
+            "country": "Czech Rep.",
+            "lead_institution": "ASCR",
+            "contact_name": "Jan Valenta",
+            "email": "",
+            "phone": "",
+            "website": "www.irsm.cas.cz",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0fd6da",
+            "_rev": "5-f821965ac1e5536c8483951ac2207ab0",
+            "file_path": "EPOS-CZ-WG1-IRSM-ASCR-Provadia.doc",
+            "ri_name": "Local se¡smic array East Bohemia",
+            "type_of_ri": "Local seismic array",
+            "country": "Czech Rep.",
+            "lead_institution": "ASCR",
+            "contact_name": "Petr Kolinsky",
+            "email": "kolinsky@irsm.cas.cz",
+            "phone": "+420-266 009 34",
+            "website": "www.irsm.cas.cz",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0fda37",
+            "_rev": "5-4cf1baa9868dcf7bb80f98978f83a14a",
+            "file_path": "EPOS-D-WG1_KIT-GPI_KABBA.doc",
+            "ri_name": "Kabba",
+            "type_of_ri": "Seismological broadband instrumentation and data centre",
+            "country": "Germany",
+            "lead_institution": "Kit-Gpi",
+            "contact_name": "Joachim Ritter",
+            "email": "joachim.ritter@kit.edu",
+            "phone": "+49-721-608-44539",
+            "website": "http://www.gpi.kit.edu/english/KABBA.php",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0fdb45",
+            "_rev": "5-a3715eef73ccd66bb93dd021f1ea2720",
+            "file_path": "EPOS-D-WG1-GRSN.doc",
+            "ri_name": "German regional seismic network - Graefenberg array (Grsn-grf)",
+            "type_of_ri": "seismic network",
+            "country": "Germany",
+            "lead_institution": "BGR",
+            "contact_name": "Klaus Stammler",
+            "email": "klaus.stammler@bgr.de",
+            "phone": "+49 511 643 204",
+            "website": "www.seismologie.bgr.de",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0fdf0b",
+            "_rev": "5-8079e1772d82f5f99f1cd798f9c4ed37",
+            "file_path": "EPOS-D-WG1+WG2+WG5-LMU-Munich-Obs.pdf",
+            "ri_name": "Munich earth observatory",
+            "type_of_ri": "Geophysical observatory",
+            "country": "Germany",
+            "lead_institution": "Department of earth science Ludwig-maximilians University",
+            "contact_name": "Heiner Igel",
+            "email": "heiner.igel@lmu.de",
+            "phone": "+49 89 2180 4204",
+            "website": "http://www.geophysik.uni-muenchen.de/observatory ",
+            "wg": "1, 2, 5",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0fed7b",
+            "_rev": "5-3e61bc5ac8338f5ac5cb0a435e4b448c",
+            "file_path": "EPOS-ES-WG1-IAG-SeismicNetworks.doc",
+            "ri_name": "Seismic networks",
+            "type_of_ri": "Permanent and portable seismic networks",
+            "country": "Spain",
+            "lead_institution": "IAG",
+            "contact_name": "Jose Morales",
+            "email": "morales@iag.ugr.es",
+            "phone": "",
+            "website": "",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0ff032",
+            "_rev": "5-a0ee3769af422b8c4ebaea87c12fe706",
+            "file_path": "EPOS-ES-WG1-ICTJA-SeismicNetworks.doc",
+            "ri_name": "Seismological equipment",
+            "type_of_ri": "Portable seismological networks: iber array- broadband and short period",
+            "country": "Spain",
+            "lead_institution": "ICTJA-CSIC",
+            "contact_name": "Josep Gallart",
+            "email": "jgallart@ictja.csic.es ",
+            "phone": "",
+            "website": "",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0ff5ec",
+            "_rev": "5-e94b0c0f329cb519c60b1f6abfe5637e",
+            "file_path": "EPOS-ES-WG1-IGC-SeismicNetworks.doc",
+            "ri_name": "Catalonian Seismic networks",
+            "type_of_ri": "Seismic instrumentation software and database",
+            "country": "Spain",
+            "lead_institution": "IGC",
+            "contact_name": "Antoni Roca",
+            "email": "aroca@igc.ca",
+            "phone": "",
+            "website": "",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0ffa41",
+            "_rev": "5-a2a819942042d8a8f7952f60d8407f52",
+            "file_path": "EPOS-ES-WG1-IGN-SeismicNetworks.doc",
+            "ri_name": "Seismic networks",
+            "type_of_ri": "Seismic networks and database",
+            "country": "Spain",
+            "lead_institution": "IGN",
+            "contact_name": "Emilio Carreño",
+            "email": "echerrero@fomento.es",
+            "phone": "",
+            "website": "",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f0ffc1e",
+            "_rev": "5-b62d85d48aeb3c40a2ed9cdce4be5b9f",
+            "file_path": "EPOS-ES-WG1-ROA-SeismicNetworks.doc",
+            "ri_name": "Seismic monitoring",
+            "type_of_ri": "seismic networks",
+            "country": "Spain",
+            "lead_institution": "ROA",
+            "contact_name": "Jose Martin Dávila",
+            "email": "mdavila@roa.es",
+            "phone": "",
+            "website": "",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f100a21",
+            "_rev": "5-57deed4c51436b87d4e86abbebdc1f05",
+            "file_path": "EPOS-ES-WG1-UAlmeria-Seismics.doc",
+            "ri_name": "Applied geophysics University of Almeria",
+            "type_of_ri": "Seismological equipment and software",
+            "country": "Spain",
+            "lead_institution": "Applied geophysics group- University of Almeria",
+            "contact_name": "Francisco Luzon",
+            "email": "fluzon@ual.es",
+            "phone": "",
+            "website": "",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f101994",
+            "_rev": "5-b8a6a58a34030684243e2f1cc39ed8bc",
+            "file_path": "EPOS-ES-WG1-UCM-Seismotectonics.doc",
+            "ri_name": "Seismotectonics and seismic hazards",
+            "type_of_ri": "/",
+            "country": "Spain",
+            "lead_institution": "UCM",
+            "contact_name": "Elisa Buforn- Diego Cordoba",
+            "email": "ebufornp@fis.ucm.es dcordoba@fis.ucm.es",
+            "phone": "",
+            "website": "",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f102473",
+            "_rev": "5-e70df8e593af59261b71b3bb1a679f9c",
+            "file_path": "EPOS-ES-WG1-WG3-LSC-Seismic+Geodetic.doc",
+            "ri_name": "Seismological and geodetic equipment",
+            "type_of_ri": "Seismological and geodetic (GPS and laser interferometer) equipments",
+            "country": "Spain",
+            "lead_institution": "LSC",
+            "contact_name": "Alessandro Bettini",
+            "email": "bettini@lsc-canfranc.es",
+            "phone": "",
+            "website": "",
+            "wg": "1, 3",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f102d49",
+            "_rev": "5-569c12ddbe5b20c132fa38cadc1f711c",
+            "file_path": "EPOS-F-WG1_GEOSCOPE_seismic network.doc",
+            "ri_name": "GEOSCOPE",
+            "type_of_ri": "Global seismic network",
+            "country": "France",
+            "lead_institution": "IPGP and EOST",
+            "contact_name": "Eleonore Stutzmann",
+            "email": "stutz@ipgp.fr",
+            "phone": "33.1.83.95.74.80",
+            "website": "geoscope.ipgp.fr",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f1030b9",
+            "_rev": "5-b2cbc357452e00970c4ca2bcade861b0",
+            "file_path": "EPOS-F-WG1-WG2-Volcanic_France.doc",
+            "ri_name": "Volcanologic and Seismological Observatories",
+            "type_of_ri": "Geophysical and Geochemical networks",
+            "country": "France",
+            "lead_institution": "IPGP",
+            "contact_name": "Steve Tait",
+            "email": "",
+            "phone": "",
+            "website": "",
+            "wg": "2",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10337c",
+            "_rev": "5-7c9c5ae07567bb3c8cf3e61a61db3068",
+            "file_path": "EPOS-F-WG1+WG2+WG4_RESIF.doc",
+            "ri_name": "RESIF",
+            "type_of_ri": "Seismic and geodetic permanent and mobile equipment and data access",
+            "country": "France",
+            "lead_institution": "CNRS - INSU",
+            "contact_name": "Helle Pedersen",
+            "email": "Helle.Pedersen@obs.ujf-grenoble.fr",
+            "phone": "+33 4 76 63 52 59",
+            "website": "www.resif.fr",
+            "wg": "1, 2, 4",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f1035b1",
+            "_rev": "5-032a54b27997a663b9c5de746bca0ed8",
+            "file_path": "EPOS-GR-WG1-FMP-CU-Patras.doc",
+            "ri_name": "Seismic regional network PSLNET",
+            "type_of_ri": "seismic network",
+            "country": "Greece",
+            "lead_institution": "Charles University- Prague and University of Patras",
+            "contact_name": "Vladimir Plicka",
+            "email": "vp@ karel.troja.mff.cuni.cz",
+            "phone": "+420-221911424",
+            "website": ": http://seis30.karlov.mff.cuni.cz/",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f103ebc",
+            "_rev": "5-c3a13e4788bfa7a7639f632cc2841a5f",
+            "file_path": "EPOS-GR-WG1-ITSAK_RI_Accelil.doc",
+            "ri_name": "/",
+            "type_of_ri": "/",
+            "country": "Greece",
+            "lead_institution": "ITSAK",
+            "contact_name": "Basil N. Margaris- Kiriaki Konstantinidou",
+            "email": "margaris@itsak.gr and kiriaki@itsak.gr ",
+            "phone": "2310-476081",
+            "website": "www.itsak.gr",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f103fa2",
+            "_rev": "5-5250e5cb45b0167c608c52da9b39b7fc",
+            "file_path": "EPOS-GR-WG1-NKUA_RI_Seism.doc",
+            "ri_name": "National and regional capodistrian university of Athens Seismological Laboratories",
+            "type_of_ri": "University",
+            "country": "Greece",
+            "lead_institution": "NKUA",
+            "contact_name": "Nicholas Voulgaris",
+            "email": "voulgaris@geol.uoa.gr",
+            "phone": "+30 210 7274431",
+            "website": "http://dggsl.geol.uoa.gr/en_index.html ",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10417a",
+            "_rev": "5-3f69e0d23c20502adc62bc1887f3a932",
+            "file_path": "EPOS-GR-WG1-NOA_RI_ACCEL.doc",
+            "ri_name": "NOA Accelerographic network",
+            "type_of_ri": "Permanent strong ground motion network",
+            "country": "Greece",
+            "lead_institution": "National Observatory of Athens",
+            "contact_name": "Ioannis Kalogeras",
+            "email": "i.kalog@noa.gr",
+            "phone": "30-2103490172",
+            "website": "http://accelnet.gein.noa.gr",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10507b",
+            "_rev": "5-cdc1d3e39010e3e2f64338429b9496ea",
+            "file_path": "EPOS-GR-WG1-NOA_RI_Seismic.doc",
+            "ri_name": "National Observatory of Athens- Institute of Geodynamics",
+            "type_of_ri": "Research centre",
+            "country": "Greece",
+            "lead_institution": "NOA - IG",
+            "contact_name": "Nikos Melis",
+            "email": "nmelis@noa.gr ",
+            "phone": "302103490190",
+            "website": "http://bbnet.gein.noa.gr/",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f105b87",
+            "_rev": "5-54d6facf4426e526cfc247fdeb2dc341",
+            "file_path": "EPOS-GR-WG1-PATRA_RI_Seismic.doc",
+            "ri_name": "University of Patras- Seismological Laboratoris (UISL)",
+            "type_of_ri": "University",
+            "country": "Greece",
+            "lead_institution": "University of Patras",
+            "contact_name": "Hakis Tselentis",
+            "email": "tselenti@upatras.gr",
+            "phone": "30-2610-969369",
+            "website": "http://seismo.geology.upatras.gr/",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10635f",
+            "_rev": "6-6955078d9d4fb2bd54181a6699accd37",
+            "file_path": "EPOS-GR-WG1-RITSA_RI_Seismic.doc",
+            "ri_name": "greece unknown",
+            "type_of_ri": "/",
+            "country": "Greece",
+            "lead_institution": "AUTH",
+            "contact_name": "Karakostas Vassilis Papadimitriou Eleftheria",
+            "email": "vkarak@geo.auth.gr- ritsa@geo.auth.gr",
+            "phone": "302310991412",
+            "website": "",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f106982",
+            "_rev": "5-c7442184079739e70ae028f35abddb3e",
+            "file_path": "EPOS-GR-WG1+WG4+WG5+WG6+WG7_Vallianatos_RI.pdf",
+            "ri_name": "Geophysics and seismology laboratory of the technological educational institute of Crete (LGS-TEICR)",
+            "type_of_ri": "Reseach geophysics and seismology laboratory - seismological network",
+            "country": "Greece",
+            "lead_institution": "Technological Educational Institute of Crete",
+            "contact_name": "Filippos Vallianatos",
+            "email": "fvallian@chania.teicrete.gr and f.vallianatos@ucl.ac.uk ",
+            "phone": "306972820628- +447794181457- +442031081052 ",
+            "website": "",
+            "wg": "1, 4, 5, 6, 7",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f1072e1",
+            "_rev": "5-09fbadf61966cfa9298cc4b39b044317",
+            "file_path": "EPOS-GR-WG1+WG6+WG7-Pitilakis.doc",
+            "ri_name": "EUROSEISTEST",
+            "type_of_ri": "A large physical laboratory which includes integrated experimental and theoretical research studies in engineering seismology- earthquake engineering- soil dynamics- structural earthquake engineering- seismology and applied geophysics",
+            "country": "Greece",
+            "lead_institution": "Aristotle University of Thessaloniki",
+            "contact_name": "Kyriazis Pitilakis",
+            "email": "kpitilak@civil.auth.gr",
+            "phone": "30 2310 995693 and +30 2310 995813",
+            "website": "http://euroseis.civil.auth.gr/",
+            "wg": "1, 6, 7",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f107403",
+            "_rev": "5-93d389c0064384b486e98482f87577bd",
+            "file_path": "EPOS-IE-WG1_DIAS_SeismicNetPerm.doc",
+            "ri_name": "Seismic network",
+            "type_of_ri": "Permanent seismic stations: irish national seismic networks",
+            "country": "Ireland",
+            "lead_institution": "GSI",
+            "contact_name": "Thomas Blake",
+            "email": "tb@cp.dias.ie",
+            "phone": "",
+            "website": "http://web.dias.ie",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f1077de",
+            "_rev": "5-84b94bd04e979d51cc28d73a18146fd2",
+            "file_path": "EPOS-IE-WG1_DIAS_SeismicNetTemp.doc",
+            "ri_name": "Mobile seismic network",
+            "type_of_ri": "Portable seismic stations- DIAS",
+            "country": "Ireland",
+            "lead_institution": "GSI",
+            "contact_name": "Sergei Lebedev",
+            "email": "sergei@cp.dias.ie",
+            "phone": "353-1-653-5147 x240",
+            "website": "http://web.dias.ie ",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f1079e7",
+            "_rev": "5-5f362ba8fd3097e6f9ecc5b3e9b40d24",
+            "file_path": "EPOS-IE-WG1_UCD_SeismicNetTemp.doc",
+            "ri_name": "Portable seismic network",
+            "type_of_ri": "Seismic stations",
+            "country": "Ireland",
+            "lead_institution": "GSI",
+            "contact_name": "Martin Mollhoff",
+            "email": "Martin.moellhoff@ucd.ie",
+            "phone": "353 1 7162381",
+            "website": "http://www.ucd.ie/geophysics",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f107b3e",
+            "_rev": "5-3e4c7d2b64c67eb168da9b52cf9bc05c",
+            "file_path": "EPOS-IE-WG1+WG5+WG6+WG7_GSI_RI.doc",
+            "ri_name": "RV Keary",
+            "type_of_ri": "Coastal Reseach Vessel",
+            "country": "Ireland",
+            "lead_institution": "GSI",
+            "contact_name": "Koen Verbruggen",
+            "email": "koen.verbruggen@gsi.ie",
+            "phone": "353-1-6782864",
+            "website": "",
+            "wg": "5",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f107ba8",
+            "_rev": "5-cb03fc6da0259c6f6aeeca57a9dc1e63",
+            "file_path": "EPOS-IE-WG5_MI_MarineResVessels.doc",
+            "ri_name": "Marine reseach vessels",
+            "type_of_ri": "Coastal and deep water research vessel",
+            "country": "Ireland",
+            "lead_institution": "GSI",
+            "contact_name": "/",
+            "email": "",
+            "phone": "",
+            "website": "",
+            "wg": "5",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f107c0d",
+            "_rev": "7-9ca1b3dd4dc1433720051884b22b6384",
+            "file_path": "EPOS-NL-WG1_ORFEUS.doc",
+            "ri_name": "ORFEUS DATACENTRE",
+            "type_of_ri": "Seismological datacentre",
+            "country": "ORFEUS",
+            "lead_institution": "ORFEUS",
+            "contact_name": "Reinoud Sleeman",
+            "email": "reinoud.sleeman@knmi.nl; torild.van.eck@knmi.nl ",
+            "phone": "31 30 2206343/780",
+            "website": "",
+            "wg": "1",
+            "doctype": "datacentre"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f108610",
+            "_rev": "5-eb403b306dc749d35decd313967e6ecf",
+            "file_path": "EPOS-NL-WG1-Delft University_ GeoLOFAR.doc",
+            "ri_name": "GeoLOFAR",
+            "type_of_ri": "Network of seismic stations (1-500 Hz)",
+            "country": "The Netherlands",
+            "lead_institution": "Delft University of technology",
+            "contact_name": "Guy Drijkoningen",
+            "email": "g.g.drijkoningen@tudelft.nl ",
+            "phone": "31 – 15 - 278 7846",
+            "website": "",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f1092c7",
+            "_rev": "5-f4eb03e85ebf23418e6de77aadda58a7",
+            "file_path": "EPOS-NL-WG1-Utrecht University_NARS-MobileSeismicNetwork.doc",
+            "ri_name": "NARS",
+            "type_of_ri": "Mobile broadband seismic network",
+            "country": "The Netherlands",
+            "lead_institution": "Utrecht University",
+            "contact_name": "Jeannot Trampert",
+            "email": "jeannot@geo.uu.nl",
+            "phone": "",
+            "website": "http://www.geo.uu.nl/Research/Seismology/",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10997d",
+            "_rev": "5-04d7f6b377bb661085620eea2c1bcc4c",
+            "file_path": "EPOS-NO-WG1_NNSN_seismic network.doc",
+            "ri_name": "Norwegian National Seismic Network (NNSN)",
+            "type_of_ri": "seismic network",
+            "country": "Norway",
+            "lead_institution": "University of Bergen",
+            "contact_name": "Lars Ottemoller",
+            "email": "lars.ottemoller@geo.uib.no",
+            "phone": "57 5558 2616",
+            "website": "http://www.geo.uib.no/seismo/nnsn/",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f109b26",
+            "_rev": "5-453813417a424e73a3f2cb0ab7da4e86",
+            "file_path": "EPOS-NO-WG1_NORSAR_seismic network.doc",
+            "ri_name": "STIFTELSEN NORSAR",
+            "type_of_ri": "Reseach Institute / Operator od seismic arrays",
+            "country": "Norway",
+            "lead_institution": "Norsar",
+            "contact_name": "Conrad Lindholm",
+            "email": "conrad@norsar.no",
+            "phone": "47-63805900",
+            "website": "www.norsardata.no",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10a3c3",
+            "_rev": "6-4735657f66d1e1813a9e481d7cbdc0ec",
+            "file_path": "EPOS-P-WG1_IM1_SeismicSystem.doc",
+            "ri_name": "Portugese Seismic ?",
+            "type_of_ri": "Research Infrastructure / System Infrastructure",
+            "country": "Portugal",
+            "lead_institution": "Intituto de meteorologia- IP",
+            "contact_name": "Fernando Carrillho",
+            "email": "fernando.carrilho@meteo.pt",
+            "phone": "351 218 447 133",
+            "website": "http://www.meteo.pt",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10b001",
+            "_rev": "5-9ca5cb55c265b042ed32afdc7e6bd308",
+            "file_path": "EPOS-P-WG1-NAVIGATORS.doc",
+            "ri_name": "Navigators network",
+            "type_of_ri": "Broadband seismological network",
+            "country": "Portugal",
+            "lead_institution": "IST",
+            "contact_name": "Joao Fonseca",
+            "email": "jfonseca@ist.utl.pt",
+            "phone": "351218417535",
+            "website": "http://sismologia.ist.utl.pt/",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10b6f8",
+            "_rev": "6-a97d424710815dcf92e3ab6f79bc8d0f",
+            "file_path": "EPOS-P-WG1+WG3+WG5_LNEG_geoseas.doc",
+            "ri_name": "Geoseas",
+            "type_of_ri": "European database infra",
+            "country": "Portugal",
+            "lead_institution": "BGS (NERC)",
+            "contact_name": "Gabriela Carrara",
+            "email": "gabriela.carrara@lneg.p",
+            "phone": "915998779",
+            "website": "http://www.geoseas.eu",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10b9ef",
+            "_rev": "6-a7c8355756e4b0f7da7369eac43de92d",
+            "file_path": "EPOS-P-WG1+WG5-UCoimbra.doc",
+            "ri_name": "Geophysical Institute of the University of Cohimbra",
+            "type_of_ri": "University research unit and observatory",
+            "country": "Portugal",
+            "lead_institution": "INGV",
+            "contact_name": "Susana Custodio",
+            "email": "susanacustodio@dct.uc.pt",
+            "phone": "351-969565078",
+            "website": "http://geofisico.dyndns.org/",
+            "wg": "1, 5",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10c74f",
+            "_rev": "6-8fe40e7defbaecf405e20def09566172",
+            "file_path": "EPOS-PL-WG1-GRSS-GIG_seismic network.doc",
+            "ri_name": "Polish Permanent short period seismic network",
+            "type_of_ri": "Permanent short period seismic network",
+            "country": "Poland",
+            "lead_institution": "Central Mining institute (GIG)",
+            "contact_name": "G. Mutke",
+            "email": "g.mutke@gig.eu",
+            "phone": "48 32 259 21 89",
+            "website": "http://www.gig.eu",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10d733",
+            "_rev": "5-b3175c034513047b65961e337cc55714",
+            "file_path": "EPOS-PL-WG1-MobSeis.doc",
+            "ri_name": "IRIS network code: PD",
+            "type_of_ri": "Mobile short period seismic network",
+            "country": "Poland",
+            "lead_institution": "IGF PAN",
+            "contact_name": "J. Suchcicki",
+            "email": "suchcice@igf.edu.pl",
+            "phone": "48 226915792",
+            "website": "http://www.igf.edu.pl/en/content/view/full/2700",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10e2fa",
+            "_rev": "5-206f0322bc6ff88f7290528c24b7d9e8",
+            "file_path": "EPOS-PL-WG1-PLSN.doc",
+            "ri_name": "PLSN (IRIS CODE PL)",
+            "type_of_ri": "Permanent broadband seismic network",
+            "country": "Poland",
+            "lead_institution": "IGF PAN",
+            "contact_name": "J. Suchcicki- P. Wiejacz",
+            "email": "suchcice@igf.edu.pl- pwiejacz@igf.edu.pl",
+            "phone": "48 226915792",
+            "website": "http://www.igf.edu.pl/en/content/view/full/734",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10efe3",
+            "_rev": "5-163ede384dafc0fcfa64caeb64b97e4d",
+            "file_path": "EPOS-RO-WG1-Seismic-Network.doc",
+            "ri_name": "Romanian seismic network and NIEP accelerometer network",
+            "type_of_ri": "Infrastructure",
+            "country": "Romania",
+            "lead_institution": "INCDFP",
+            "contact_name": "Konstantin Ionescu",
+            "email": "viorel@infp.ro",
+            "phone": "40214050670",
+            "website": "http://www.infp.ro",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f10feb6",
+            "_rev": "5-9bfa592e728ad971faba47ac9fe551b1",
+            "file_path": "EPOS-S-WG1-SNSN_UU.doc",
+            "ri_name": "SNSN",
+            "type_of_ri": "Broadband seismological network",
+            "country": "Sweden",
+            "lead_institution": "Uppsala University",
+            "contact_name": "Reynir Bodvarsson",
+            "email": "Reynir.Bodvarsson@geo.uu.se",
+            "phone": "46184712378",
+            "website": "www.snsn.se",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f1102da",
+            "_rev": "7-4b722252b328733c9c543d021023cfcc",
+            "file_path": "EPOS-TR-WG1-AFAD.doc",
+            "ri_name": "Turkey National seismology network 02",
+            "type_of_ri": "National seismology network",
+            "country": "Turkey",
+            "lead_institution": "Disaster and emergency Management Presidency",
+            "contact_name": "Murat Nurlu",
+            "email": "nurlu@deprem.gov.tr",
+            "phone": "90 (312) 287 36 48",
+            "website": "www.deprem.gov.tr",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f110f44",
+            "_rev": "8-b9aac2094659f7ba2ad281c3741b9447",
+            "file_path": "EPOS-TR-WG1-BU-KOERI.doc",
+            "ri_name": "Turkey National seismology network 01",
+            "type_of_ri": "National seismology network",
+            "country": "Turkey",
+            "lead_institution": "BU KEORI",
+            "contact_name": "Dogan Kalafat",
+            "email": "kalafato@boun.edu.tr",
+            "phone": "90 - 216 - 516 32 75",
+            "website": "www.koeri.boun.edu.tr/sismo",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f111d3d",
+            "_rev": "6-f059a71b396a7f853f0034777d3a395b",
+            "file_path": "EPOS-TR-WG1-TUBITAK-MRC.doc",
+            "ri_name": "Turkey Regional seismology weak motion",
+            "type_of_ri": "Regional seismology weak motion",
+            "country": "Turkey",
+            "lead_institution": "Tubitak",
+            "contact_name": "Onur Tan",
+            "email": "onur.tan@mam.gov.tr",
+            "phone": "90 (262) - 677 2850",
+            "website": "",
+            "wg": "/",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f1124ca",
+            "_rev": "5-c15351b012e93e5947c140bf3112fe25",
+            "file_path": "EPOS-UK-WG1-BGS-SeismicNetwork.docx",
+            "ri_name": "UK seismological network",
+            "type_of_ri": "Distributed geological survey and natinoal data centre",
+            "country": "United Kingdom",
+            "lead_institution": "BGS (NERC)",
+            "contact_name": "Brian Baptie",
+            "email": "bbap@bgs.ac.uk",
+            "phone": "441316500222",
+            "website": "http://www.earthquakes.bgs.ac.uk",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f1132b2",
+            "_rev": "5-72c777bc96aa944d35e820b3092fa3fd",
+            "file_path": "EPOS-UK-WG1+WG2+WG3+WG5-SEISUK-MobileSeismicPool.docx",
+            "ri_name": "Seis-UK",
+            "type_of_ri": "Mobile seismic equipment",
+            "country": "United Kingdom",
+            "lead_institution": "University of Leicester",
+            "contact_name": "Richard England- Alex Brisbourne",
+            "email": "rwe5@le.ac.uk or amb27@le.ac.uk",
+            "phone": "44116 252 3627",
+            "website": "http://www.le.ac.uk/seis-uk/",
+            "wg": "1, 2, 3, 5",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f113757",
+            "_rev": "6-2089e6931045e1308187a27cccf1c402",
+            "file_path": "EPOS-I-WG1-INGV_AHEAD.doc",
+            "ri_name": "Italian Distributed Archive database",
+            "type_of_ri": "Distributed Archive database",
+            "country": "Italy",
+            "lead_institution": "INGV",
+            "contact_name": "Massimiliano Stucchi",
+            "email": "massimiliano.stucchi@mi.ingv.it ",
+            "phone": "390223699262",
+            "website": "http://www.emidius.eu/AHEAD/",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f113beb",
+            "_rev": "5-2d1583125fe571e99887fe0c445fba19",
+            "file_path": "EPOS-I-WG1-INGV_SISMOS_historical DB.doc",
+            "ri_name": "SISMOS",
+            "type_of_ri": "Historical Database",
+            "country": "Italy",
+            "lead_institution": "INGV",
+            "contact_name": "Graziano Ferrari",
+            "email": "ferrari@bo.ingv.it",
+            "phone": "39 0651860629",
+            "website": "",
+            "wg": "1",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f113e76",
+            "_rev": "5-440ba4d4bfc8d114514516b9cf4dfbb6",
+            "file_path": "EPOS-I-WG1-WG2-INGV-OV-1.doc",
+            "ri_name": "INGV - OV Seismic network",
+            "type_of_ri": "Seismic network for volcano monitoring",
+            "country": "Italy",
+            "lead_institution": "INGV",
+            "contact_name": "Marcello Martini",
+            "email": "martini@ov.ingv.it",
+            "phone": "39 081 6108 483",
+            "website": "http://www.ov.ingv.it",
+            "wg": "1, 2",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f11433a",
+            "_rev": "5-48b0553eb1a294a5358e537f45104d89",
+            "file_path": "EPOS-I-WG1+WG7-INGV-ISN.doc",
+            "ri_name": "Italian Seismic network",
+            "type_of_ri": "National seismic network",
+            "country": "Italy",
+            "lead_institution": "INGV",
+            "contact_name": "Giulio Selvaggi",
+            "email": "giulio.selvaggi@ingv.it",
+            "phone": "39 06 51860410",
+            "website": "http://www.cnt.ingv.it",
+            "wg": "1, 7",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f114c2e",
+            "_rev": "5-26f5a1b01c777e2ca3df019ef67fbd2f",
+            "file_path": "EPOS-I-WG1+WG7-INGV-MEDNET.doc",
+            "ri_name": "Mediterrean Network (MEDNET)",
+            "type_of_ri": "Very broad band seismic network",
+            "country": "Italy",
+            "lead_institution": "INGV",
+            "contact_name": "Giulio Selvaggi",
+            "email": "giulio.selvaggi@ingv.it",
+            "phone": "39 06 51860410",
+            "website": "http://www.cnt.ingv.it",
+            "wg": "1, 7",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c2ca0178cacdfb3bbcfeea0c8f1159bb",
+            "_rev": "5-f7e40e98a33dd95ebdfd2d7673031a49",
+            "file_path": "EPOS-I-WG1+WG7-INGV-Mobile.doc",
+            "ri_name": "Italian mobile seismic network",
+            "type_of_ri": "Mobile seismic network",
+            "country": "Italy",
+            "lead_institution": "INGV",
+            "contact_name": "Giulio Selvaggi",
+            "email": "giulio.selvaggi@ingv.it",
+            "phone": "39 06 51860410",
+            "website": "http://www.cnt.ingv.it",
+            "wg": "1, 7",
+            "doctype": "ri"
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be195000e1c",
+            "_rev": "3-3a5b4510346bfb214a4719be5cbd27ad",
+            "ri_name": "University of Patras, Seismological Laboratoris (UISL)",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 27
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 120
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric"
+            ],
+            "data_format": [
+                "miniSEED",
+                "catalogue as text file"
+            ],
+            "data_transmission": "Satellite",
+            "data_policy": "Data are available for research purposes upon reques",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be195001643",
+            "_rev": "3-d3138f073750902fc6ac51568cdc220f",
+            "ri_name": "National Observatory of Athens, Institute of Geodynamics",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 43
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 20
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric",
+                "moment tensor",
+                "catalogues"
+            ],
+            "data_format": [
+                "miniSEED",
+                "catalogue as text file"
+            ],
+            "data_transmission": "ADSL, GPRS/3G",
+            "data_policy": "Data are available for research purposes upon request. However, some data are also distributed on real time to collaborators (i.e. GFZ, ORFEUS, INGV)",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be195001f7e",
+            "_rev": "3-915a00219269546cb4b84aab437189e1",
+            "ri_name": "NOA Accelerographic network",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 120
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "V1",
+                "V2 ASCII"
+            ],
+            "data_transmission": "",
+            "data_policy": "on request",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500239b",
+            "_rev": "3-af33f7f8c4fa39ae55439c6b567f9d64",
+            "ri_name": "National and regional capodistrian university of Athens Seismological Laboratories",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 16
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 22
+                },
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 28
+                },
+                {
+                    "type": "borehole",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 1
+                },
+                {
+                    "type": "3D sensor array",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 5
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local",
+                "mobile"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "parametric"
+            ],
+            "data_format": [
+                "miniSEED",
+                "ASCII"
+            ],
+            "data_transmission": "3G/GPRS",
+            "data_policy": "on request",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be195003234",
+            "_rev": "3-3ee6dc37623138a6ce9a37b659029299",
+            "ri_name": "ITSAK seismologic ??",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 240
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries",
+                "images"
+            ],
+            "data_format": [
+                "international standard",
+                "ASCII"
+            ],
+            "data_transmission": "Broadband Network, Modem, in-situ visits",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500414d",
+            "_rev": "3-189c639ff045d146b756b29b7b90136d",
+            "ri_name": "Seismic regional network PSLNET",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 7
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "nanometrics",
+                "sac",
+                "gcf"
+            ],
+            "data_transmission": "",
+            "data_policy": "on request",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500444a",
+            "_rev": "3-6fb7f62eb9c65e4f71716683618b2898",
+            "ri_name": "RESIF",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 130
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 170
+                },
+                {
+                    "type": "GPS",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 95
+                },
+                {
+                    "type": "gravimeter",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 11
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                ""
+            ],
+            "data_format": [
+                "international Standard"
+            ],
+            "data_transmission": "",
+            "data_policy": "open, experiment after year",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be1950053c2",
+            "_rev": "3-c05e999efad9aaa0450177e3e1b567e5",
+            "ri_name": "Volcanologic and Seismological Observatories",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 39
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 77
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 39
+                },
+                {
+                    "type": "i",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 15
+                },
+                {
+                    "type": "GPS",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 38
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "standard"
+            ],
+            "data_transmission": "",
+            "data_policy": "open after time delay",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be1950060c9",
+            "_rev": "3-a28ead89752351c481d8a40a362c2005",
+            "ri_name": "Seismological and geodetic equipment",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 1
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 1
+                },
+                {
+                    "type": "GPS",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 2
+                },
+                {
+                    "type": "LASER",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 2
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                ""
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                ""
+            ],
+            "data_format": [
+                ""
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be1950061e2",
+            "_rev": "3-3d443abbc5aa6b57033d36f0fab3f13c",
+            "ri_name": "GEOSCOPE",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 30
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 9
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "global"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "miniSEED"
+            ],
+            "data_format": [
+                "standard"
+            ],
+            "data_transmission": "",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be1950068d8",
+            "_rev": "3-44cff408d7bd270b4b5cf7053b222b9f",
+            "ri_name": "Seismotectonics and seismic hazards",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                ""
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                ""
+            ],
+            "data_format": [
+                ""
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be1950070d9",
+            "_rev": "3-7aa3a9357bd698daf44e79d425c6df20",
+            "ri_name": "Applied geophysics University of Almeria",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "mobile??"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                ""
+            ],
+            "data_format": [
+                ""
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be1950079ed",
+            "_rev": "3-bed50a7ea0c69cb26d81d507a46bf8fc",
+            "ri_name": "Seismic monitoring",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 15
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 9
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                ""
+            ],
+            "data_format": [
+                ""
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be195007a96",
+            "_rev": "3-970bc77e7c34f9cedebd8ee580ca55e7",
+            "ri_name": "Seismic networks",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                ""
+            ],
+            "data_format": [
+                ""
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be195007b2d",
+            "_rev": "3-fac43f02895aa09d99300c2e9781763f",
+            "ri_name": "Catalonian Seismic networks",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 15
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 9
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                ""
+            ],
+            "data_format": [
+                ""
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be1950082ae",
+            "_rev": "3-02c0767d561e99bcd150ef2e8ede3192",
+            "ri_name": "Seismological equipment",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 80
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 12
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local array"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                ""
+            ],
+            "data_format": [
+                ""
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be1950092a7",
+            "_rev": "3-b2e69f2cb879ca3a3ce29f41dd242660",
+            "ri_name": "Spain Seismic networks",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                ""
+            ],
+            "data_format": [
+                ""
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be195009a5a",
+            "_rev": "3-95079b2d5447bc7d871bf061a3b0c118",
+            "ri_name": "Munich earth observatory",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 22
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "international standard"
+            ],
+            "data_transmission": "",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500a81f",
+            "_rev": "3-7602fa8180b7ccfc4556bdb72068e22b",
+            "ri_name": "German regional seismic network - Graefenberg array (Grsn-grf)",
+            "type": "seismic station",
+            "kind": "permament",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 41
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500aae3",
+            "_rev": "3-e68ef97919ccd02d628842fe77ae8610",
+            "ri_name": "Kabba",
+            "type": "seismic station",
+            "kind": "temporary",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 42
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local",
+                "mobile"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "miniSEED"
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500b3f8",
+            "_rev": "3-c5ac2b32e6a87e1ee2752a76f489139f",
+            "ri_name": "Local seismic array East Bohemia",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 1
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 3
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "array"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries 250sps"
+            ],
+            "data_format": [
+                "GSE",
+                "ASCII"
+            ],
+            "data_transmission": "",
+            "data_policy": "on request open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500b5ca",
+            "_rev": "3-7c9e3724dfda7852a4f3292f470aa218",
+            "ri_name": "Local seismic array Provadia",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 3
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local",
+                "array"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries 250sps"
+            ],
+            "data_format": [
+                "GSE"
+            ],
+            "data_transmission": "",
+            "data_policy": "",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500c24c",
+            "_rev": "3-3e3e004b9046385ef78d5d48c763299c",
+            "ri_name": "Local seismic network norther Moravia (Masaryk Univ.)",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 6
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "css3"
+            ],
+            "data_transmission": "",
+            "data_policy": "on request",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500c3b2",
+            "_rev": "3-6fb1b11556f56a337fc6101451a2df2b",
+            "ri_name": "West Bohemia Seismic network (Webnet)",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 13
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "local"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries 250sps"
+            ],
+            "data_format": [
+                "nanometrics",
+                "GSE"
+            ],
+            "data_transmission": "",
+            "data_policy": "on request",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500c3e5",
+            "_rev": "3-a81199b5abd96f8613e25a30bc32a4f2",
+            "ri_name": "Mobile seismic network (mobnet)",
+            "type": "seismic station",
+            "kind": "temporary",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 21
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 32
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "mobile"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "dvolume 20sps"
+            ],
+            "data_format": [
+                "seed"
+            ],
+            "data_transmission": "",
+            "data_policy": "on request",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500c529",
+            "_rev": "3-03a036845fdba5b502cd7dd5ccbdb938",
+            "ri_name": "Czech regional seismic center",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 15
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 3
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 2
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "seed",
+                "css3"
+            ],
+            "data_transmission": "",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500d198",
+            "_rev": "3-2f752139889e99cf258445acce56aa3c",
+            "ri_name": "Seismologial software center",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 15
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 3
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 2
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "seed",
+                "css3"
+            ],
+            "data_transmission": "",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500d20b",
+            "_rev": "3-8575a5934cafe72a7cb2cbe0b1a0704e",
+            "ri_name": "Swiss strong motion network",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 120
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries 250sps",
+                "timeseries 120sps"
+            ],
+            "data_format": [
+                "miniSEED",
+                "gse2"
+            ],
+            "data_transmission": "realtime high bandwidth internet communications ",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "c8da5a293fad32814ff12be19500d69b",
+            "_rev": "3-1fb8d4ecc989d878aa0f57b603c30ea4",
+            "ri_name": "SDS net",
+            "type": "seismic station",
+            "kind": "permanent",
+            "quantity": "",
+            "equipment": [
+                {
+                    "type": "broadband",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 34
+                },
+                {
+                    "type": "shortperiod",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 10
+                },
+                {
+                    "type": "accelerometer",
+                    "brand": "",
+                    "specifics": "",
+                    "quantity": 0
+                }
+            ],
+            "purchase_value": "",
+            "year_of_acquisition": "",
+            "location": "",
+            "coverage": [
+                "national"
+            ],
+            "site_of_study": "",
+            "specifics": "",
+            "other_details": "",
+            "data_type": [
+                "timeseries"
+            ],
+            "data_format": [
+                "miniSEED",
+                "gse2"
+            ],
+            "data_transmission": "realtime high bandwidth internet communications",
+            "data_policy": "open",
+            "doctype": "facility",
+            "status": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91002eb2",
+            "_rev": "3-89e343328ae3e61d13e5aa004eb5179f",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Swiss strong motion network - SDS net",
+            "data_centre_acquisition_software": "Arclink",
+            "data_centre_hardware": "Network Attached Storage",
+            "data_centre_storage_capacity_tb": "6",
+            "data_centre_growth_rate_storage_capacity_tb-y": "0.5",
+            "data_organization": "SDS",
+            "data_volume_tb": "6",
+            "data_volume_growth_rate_tb-y": "0.5",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": " earthquake information and products (locations, magnitudes, ShakeMaps, ",
+            "dc_software": "SeisComP3 C++, Python,Java",
+            "licenced_software": "SeisComP3 requires a licence agreement with GFZ Potsdam ",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91003b7f",
+            "_rev": "3-f53ec6a2303cda67e5e2623dc57d6171",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Seismologial software center",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "internet",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91003c01",
+            "_rev": "3-e20dbc75fbddeadca41a4fb61ccb7e3c",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Czech regional seismic center",
+            "data_centre_acquisition_software": "Antelope, SeisComP",
+            "data_centre_hardware": "1x Sun Ultra10, 3x SunBlade2500 IBM linux server ",
+            "data_centre_storage_capacity_tb": "65",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "1,2",
+            "data_volume_growth_rate_tb-y": "0.4",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91004ade",
+            "_rev": "3-420cbac7ffebbde4fa7da9910fae1a6b",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Mobile seismic network (mobnet)",
+            "data_centre_acquisition_software": "Suse Linux",
+            "data_centre_hardware": "1x PC serve",
+            "data_centre_storage_capacity_tb": "23",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "2,6",
+            "data_volume_growth_rate_tb-y": "0.3",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "on request"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91005563",
+            "_rev": "3-1a76590cb6b9d65eca07620db4a09325",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "West Bohemia Seismic network (Webnet)",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "on request"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91006271",
+            "_rev": "4-f92ee904f686948f3b94410c28ba1c30",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Local seismic network norther Moravia (Masaryk Univ.)",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": 0.6,
+            "data_centre_growth_rate_storage_capacity_tb-y": "0.08",
+            "data_organization": "",
+            "data_volume_tb": 0.6,
+            "data_volume_growth_rate_tb-y": "0.08",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "on request"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91006545",
+            "_rev": "3-97f382bfc5287ed038e85e9f57b7ba0c",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Local se¡smic array Provadia",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100657e",
+            "_rev": "3-601c107321ab33dfa42ada359dee5c59",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Local se¡smic array East Bohemia",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "on request open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91006792",
+            "_rev": "3-e33916d7986d33013883284e22374c13",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Kabba",
+            "data_centre_acquisition_software": "WebDC",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "6",
+            "data_volume_growth_rate_tb-y": "2",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91006794",
+            "_rev": "3-37521a292e675a31a1afba93cac3ab31",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "German regional seismic network - Graefenberg array (Grsn-grf)",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "stored on mirrored NAS systems controlled by a database, backup on tape and USB disks",
+            "data_volume_tb": "4",
+            "data_volume_growth_rate_tb-y": "0.5",
+            "dc_connectivity_bandwidth": "100 MBits",
+            "dc_connectivity_protocols": "seedlink, AutoDRM, WebDC",
+            "dc__objective": "",
+            "dc_software": "own software SeisComP3 C++, Python,",
+            "licenced_software": "",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91007259",
+            "_rev": "3-f9388edfcddae416e27fbec8fac70eb3",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Munich earth observatory",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "2",
+            "data_volume_growth_rate_tb-y": "1",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "Arclink",
+            "dc__objective": "",
+            "dc_software": "Python, Obspy, Seishub",
+            "licenced_software": "",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91007d8f",
+            "_rev": "3-b2c2e09817fa9d5cc262a0bff2ac1241",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Seismic networks",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100803c",
+            "_rev": "3-f80c803ee53ceeab7afc73aa243cbd04",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Seismological equipment",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91008737",
+            "_rev": "3-034fe9128c0f19e91a3f2982396cb16a",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Catalonian Seismic networks",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91008c17",
+            "_rev": "3-335dda7f62025f0e1f8391eb20a2f0e0",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Seismic networks",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91009353",
+            "_rev": "3-1c8ab085bcdddb3fab6b8b7c7fb8bd9a",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Seismic monitoring",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91009839",
+            "_rev": "3-95b1430e08adf2c767d3051fa242e0ab",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Applied geophysics University of Almeria",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91009d11",
+            "_rev": "3-00c7ccf1842bd163ac21d7cfed336b61",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Seismotectonics and seismic hazards",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100a38a",
+            "_rev": "3-0073d3a668c6859d445facdf6a993f80",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Seismological and geodetic equipment",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100b2ae",
+            "_rev": "3-48faffd3107d5df5857fcd0ff615b557",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "GEOSCOPE",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "Seedlink,arclink,NetDC",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100c1f9",
+            "_rev": "3-e2bd10722a58811e2364c92c7ee7b008",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Volcanologic and Seismological Observatories",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "10",
+            "data_volume_growth_rate_tb-y": "1",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "Net DC",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open after time delay"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100cc67",
+            "_rev": "3-7a89b407e6eac4099921bffa3d61837a",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "RESIF",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open, experiment after year"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100cd15",
+            "_rev": "3-f1eaaa9d7865e9a6bd067d7d9f930611",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Seismic regional network PSLNET",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "50",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "0,7",
+            "data_volume_growth_rate_tb-y": "0.1",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "NAQS, seedlink, Scream",
+            "dc__objective": "",
+            "dc_software": "NAQS Server, SeisComP, Atlas, Hydra, Earthworm, Scream Server",
+            "licenced_software": "",
+            "data_policy": "on request"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100d9c5",
+            "_rev": "4-9d2d081b22171773fdf37f1eb8fbd51b",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": 14.6,
+            "data_centre_growth_rate_storage_capacity_tb-y": "7",
+            "data_organization": "File System",
+            "data_volume_tb": "6",
+            "data_volume_growth_rate_tb-y": "7",
+            "dc_connectivity_bandwidth": "2Mbps full duplex, TCPIP",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "− Processing, Modelling of any type of geodata gathered trough the instrumentation of the Institute. − Support of research activities of ITSAK",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100e672",
+            "_rev": "4-489e2d1a7e1a61340ed5e246a2bcd864",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "National and regional capodistrian university of Athens Seismological Laboratories",
+            "data_centre_acquisition_software": "NAQS server and Apollo server for acquisition, HYDRA for automatic processing,",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": 10.5,
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "8",
+            "data_volume_growth_rate_tb-y": "2",
+            "dc_connectivity_bandwidth": "1Gigabit Ethernet ",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "on request"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100e73b",
+            "_rev": "3-b12655148f3aea234d045e204ecf8a56",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "NOA Accelerographic network",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "4",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "data sets and database (mysql, MsAccess)",
+            "data_volume_tb": "1",
+            "data_volume_growth_rate_tb-y": "2",
+            "dc_connectivity_bandwidth": "internet",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "on request"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100f267",
+            "_rev": "3-0f798e835787ec2e5109d63e6b91891b",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "National Observatory of Athens, Institute of Geodynamics",
+            "data_centre_acquisition_software": "Seedlink Nanometrics",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "60",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "File system (miniSeed data",
+            "data_volume_tb": "20",
+            "data_volume_growth_rate_tb-y": "2",
+            "dc_connectivity_bandwidth": "ADSL 2Mbps bandwidth Satellite telemetry 130kbps bandwidth GPRS3G 130kbps bandwidth",
+            "dc_connectivity_protocols": "Seedlink,Nanometric",
+            "dc__objective": "Automaticmanual processing of seismic data. Seismicity monitoring Moment tensor inversion, picking etc",
+            "dc_software": "Seismic Handler, SeisComP-3, HYDRA.SAC, PQLX, and homemade software for seismic data processing",
+            "licenced_software": "",
+            "data_policy": "Data are available for research purposes upon request. However, some data are also distributed on real time to collaborators (i.e. GFZ, ORFEUS, INGV)"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100f9cb",
+            "_rev": "3-fb953722036560116d81fc7e6c16570e",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "University of Patras, Seismological Laboratoris (UISL)",
+            "data_centre_acquisition_software": "NAQS server and Apollo server for acquisition, HYDRA for automatic processing and Athena for data base",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "4",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "File system (miniSeed data",
+            "data_volume_tb": "8",
+            "data_volume_growth_rate_tb-y": "2",
+            "dc_connectivity_bandwidth": "Satellite telemetry 100kbps bandwidth GPRS3G 5Gbmonth bandwidth ",
+            "dc_connectivity_protocols": "Nanometric",
+            "dc__objective": "",
+            "dc_software": "C, Java, Fortran, Matlab",
+            "licenced_software": "",
+            "data_policy": "Data are available for research purposes upon reques"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9100fc9c",
+            "_rev": "3-3d47c5eacd660996451927cb7d42c255",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e910109a0",
+            "_rev": "3-07e1d56284cb185ba76c47f27453d719",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Geophysics and seismology laboratory of the technological educational institute of Crete (LGS-TEICR)",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "50",
+            "data_centre_growth_rate_storage_capacity_tb-y": "0.5",
+            "data_organization": " Time series in file system, events in relational DB. ",
+            "data_volume_tb": "1",
+            "data_volume_growth_rate_tb-y": "0.5",
+            "dc_connectivity_bandwidth": "Bandwiths: ADSL=8×1Mbs, 1×2Mbs, Satellite = 256Kbs in 16Kbs slots, WiFi = 1Mbps. Protocols: EthernetMPLS for wired links, TDMA (VSAT) for Satellite, 802.11b for WiFi, 3GGPRS.",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "on request"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91010e04",
+            "_rev": "3-447a654dd1cea053b9e116a8834adb61",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "EUROSEISTEST",
+            "data_centre_acquisition_software": "Kinemetrics, Guralp and Reftek utilities for seismological data processing, SAC software, Pascal utilities, Herrmann software, ABAQUS, FLAC, Matlab",
+            "data_centre_hardware": "PCs, UNIX",
+            "data_centre_storage_capacity_tb": "1",
+            "data_centre_growth_rate_storage_capacity_tb-y": "0.5",
+            "data_organization": "",
+            "data_volume_tb": "1",
+            "data_volume_growth_rate_tb-y": "0.5",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "ftp",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open-onrequest"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e910117b2",
+            "_rev": "3-28cbdf49d82c892e6a867685801d4806",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Seismic network",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101261a",
+            "_rev": "3-6b3f11aaa8d432b90039efa765ecf734",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Mobile seismic network",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91013374",
+            "_rev": "3-f8470a32d6ca8e5d3d7a0b6403db3657",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Portable seismic network",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "4",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91013ad8",
+            "_rev": "3-acc5dba8bbf252c565071dc43a1944c2",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "RV Keary",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91014a55",
+            "_rev": "3-4e1bb21bec20e150f1ce9c0c7e0f2035",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Marine reseach vessels",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101507b",
+            "_rev": "3-81748277d326c168fa2cdc6026d06d96",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "ORFEUS DATACENTRE",
+            "data_centre_acquisition_software": "Linux, Antelope ®, SeisComP3, SCREAM, PQLX",
+            "data_centre_hardware": "Linux servers, RAID storage system (SAN)",
+            "data_centre_storage_capacity_tb": "10",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "10",
+            "data_volume_growth_rate_tb-y": "3",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e910154a5",
+            "_rev": "3-841f15397fe52eac5486d8f4d0997703",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "GeoLOFAR",
+            "data_centre_acquisition_software": "Software developed by TNO",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "14",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "File system",
+            "data_volume_tb": "14",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "For partners of the LOFAR consortium, 100 Mbs",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "For partners of the LOFAR consortium open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91015d8c",
+            "_rev": "3-acee0ced8aded7b216f4ed9cf4124e01",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "NARS",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "free access via protocols of international data centres"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91016cea",
+            "_rev": "4-464f045161ef869c896fef1050040072",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Norwegian National Seismic Network (NNSN)",
+            "data_centre_acquisition_software": "Seisan, Seislog, Seisnet, Earthworm, seedlink",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "0.5",
+            "data_organization": "file system",
+            "data_volume_tb": "2",
+            "data_volume_growth_rate_tb-y": "0.5",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "TCPIP, seedlink, ftp",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91017b06",
+            "_rev": "3-075f170a45720d2c79871575304606f6",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "STIFTELSEN NORSAR",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "40",
+            "data_centre_growth_rate_storage_capacity_tb-y": "2",
+            "data_organization": "File system and oracle data base",
+            "data_volume_tb": "30",
+            "data_volume_growth_rate_tb-y": "2",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "Internet, GSE autodrm, CD1.1, seedlink.",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open on request"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101813c",
+            "_rev": "3-f8e1bad1dd6ab20ef8f794cf422d6f38",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "",
+            "data_centre_acquisition_software": "Linux, Windows, Seiscomp, Seisan, EMC software and in-house developed software",
+            "data_centre_hardware": "HP servers, workstations and storage serversdisks (EMC",
+            "data_centre_storage_capacity_tb": "20",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "0,8",
+            "data_volume_growth_rate_tb-y": "2.5",
+            "dc_connectivity_bandwidth": "10MBits",
+            "dc_connectivity_protocols": "seedlink, ftp",
+            "dc__objective": "",
+            "dc_software": "Seiscop3,Seisan",
+            "licenced_software": "",
+            "data_policy": "partially open in real-time to community; fully available for research projects (on-requestp"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91018f75",
+            "_rev": "3-4e655e7c5f786a5deea0edfce9a9f08f",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Navigators network",
+            "data_centre_acquisition_software": "Seiscomp3",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open Orfeus"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e91019e1e",
+            "_rev": "3-6589f4c398d428e0bb1e167884b01b82",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Geoseas",
+            "data_centre_acquisition_software": "geoseas softwares developed by IFREMER and in-house developed (for some european partner)",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "1",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "internal and external databases",
+            "data_volume_tb": "1",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "2Mbps ",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101aac7",
+            "_rev": "3-12029b198b68581c8ea7276e8f88ab73",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Geophysical Institute of the University of Cohimbra",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "5",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "2",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "ADS",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101ac61",
+            "_rev": "4-d82403dd3843b7047f500a685bf0ba29",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "",
+            "data_centre_acquisition_software": "SEISAN – The Earthquake Analysis Software : University of Bergen & British Geological Survey",
+            "data_centre_hardware": "GeoDAS - GeoSIG Data Acquisition System supplies data in mini SEED format -communication server and processing unit",
+            "data_centre_storage_capacity_tb": 0.5,
+            "data_centre_growth_rate_storage_capacity_tb-y": "0.05",
+            "data_organization": "",
+            "data_volume_tb": 0.4,
+            "data_volume_growth_rate_tb-y": "0.050",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "restrited"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101b761",
+            "_rev": "3-09c035bd38b6e3d42a7047a4213d5917",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "IRIS network code: PD",
+            "data_centre_acquisition_software": "seiscomp 2.5",
+            "data_centre_hardware": "comunication server, processing unit and archive server",
+            "data_centre_storage_capacity_tb": "4",
+            "data_centre_growth_rate_storage_capacity_tb-y": "0.4",
+            "data_organization": "seiscomp file system(SDS)",
+            "data_volume_tb": "1",
+            "data_volume_growth_rate_tb-y": "0.4",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "arclink, sftp",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "restrited"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101bfb1",
+            "_rev": "3-d8a684fe132302a9aceab19cd0e79a68",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "PLSN (IRIS CODE PL)",
+            "data_centre_acquisition_software": "SeismicHandler, Swip",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "6",
+            "data_centre_growth_rate_storage_capacity_tb-y": "0.5",
+            "data_organization": "seiscomp file system(SDS)",
+            "data_volume_tb": "2",
+            "data_volume_growth_rate_tb-y": "0.5",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "seedlink, WWW",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101ccba",
+            "_rev": "3-3b30612717a10fbc095fe97d479d1e08",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Romanian seismic network and NIEP accelerometer network",
+            "data_centre_acquisition_software": "Antelope 5.0 software, SEISCOMP3 ",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "50",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "DATASCOPE (CSS 3.0) and SDS",
+            "data_volume_tb": "50",
+            "data_volume_growth_rate_tb-y": "1",
+            "dc_connectivity_bandwidth": "internet",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101cdfc",
+            "_rev": "3-10ff1479dc426613641d6ca0cef4c8b0",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "SNSN",
+            "data_centre_acquisition_software": "Seiscomp, Scream",
+            "data_centre_hardware": "hardware 10 PCs and two Sun servers",
+            "data_centre_storage_capacity_tb": "8",
+            "data_centre_growth_rate_storage_capacity_tb-y": "1",
+            "data_organization": "waveform data on file system some event data in SQL database",
+            "data_volume_tb": "6",
+            "data_volume_growth_rate_tb-y": "1",
+            "dc_connectivity_bandwidth": "100 Mbitssec internet",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open agreements"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101d1c7",
+            "_rev": "3-8b10bae4caefa21732013470705deefe",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101d9a4",
+            "_rev": "3-90d29e383e162a9b15e1e261a9fc710a",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101e068",
+            "_rev": "3-dff024e65da827c9d04a518ef0ea87a5",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "",
+            "data_centre_acquisition_software": "SAC, Scream!, Reftek-RTP ",
+            "data_centre_hardware": "winlinux PCs, HP storage",
+            "data_centre_storage_capacity_tb": "24",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "File system (Linux",
+            "data_volume_tb": "10",
+            "data_volume_growth_rate_tb-y": "2",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "TCPIP, FTP, sFTP",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open after 3y"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101e739",
+            "_rev": "4-49a8f39e4ba311bbf3b4f00491c3f07f",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "UK seismological network",
+            "data_centre_acquisition_software": " SEISAN",
+            "data_centre_hardware": "Linux SAN",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "SEISAN file system",
+            "data_volume_tb": "4",
+            "data_volume_growth_rate_tb-y": "1",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "SeedLink, AutoDRM",
+            "dc__objective": "",
+            "dc_software": "Data acquisition: Scream, NAQS, EarthWorm Data Processing and Analysis: SEISAN, SAC, EarlyBird, MatLab",
+            "licenced_software": "",
+            "data_policy": "Open access for academic research"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101ebc9",
+            "_rev": "3-b29f487d8548062b0ff10acda2496dc9",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Seis-UK",
+            "data_centre_acquisition_software": "Generic seismic freeware with in-house scripting",
+            "data_centre_hardware": "8 core linux server",
+            "data_centre_storage_capacity_tb": "40",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open after 3y"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101f0df",
+            "_rev": "4-11d851deab135e0d2797d20448c2f668",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "",
+            "data_centre_acquisition_software": "Microsoft Access and Excel, parameterisation tools (Boxer, Bakun & Wentworth, MEEP), Geographical Information Systems (ESRI ArcMap and QGIS). Web front-end in-house developed using an AMP environment (Apache, MySQL and PHP). Only open standard libraries and open file formats are used. Data browsing has been tested on all major platform, no external (plugins) required on modern browsers. An in-house developed software is used for generating SVG interactive maps, which is under an open source licence and well documented. ",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": 0.2,
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "file system, DB",
+            "data_volume_tb": 0.06,
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "100Mbitsec",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "opene se non restrictes"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101f4a2",
+            "_rev": "5-bdfe6ab03fc3ee76965b7d508c9a824a",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "SISMOS",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "",
+            "data_volume_tb": "",
+            "data_volume_growth_rate_tb-y": "",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101f6eb",
+            "_rev": "3-da6c5222e46c0c8bb464017acafd6ed3",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "INGV - OV Seismic network",
+            "data_centre_acquisition_software": "EarthWorm and SeedLink",
+            "data_centre_hardware": "Monitoring room, parallel computers, data storage",
+            "data_centre_storage_capacity_tb": "40",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "Relational DB, file system",
+            "data_volume_tb": "10",
+            "data_volume_growth_rate_tb-y": "2",
+            "dc_connectivity_bandwidth": "Internet: 2+2 MBs (to be upgraded to 100 MBs).",
+            "dc_connectivity_protocols": "EarthWorm and SeedLink",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": "open"
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101f750",
+            "_rev": "3-98a12301f0075f0af41cc889f0175c6d",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Italian Seismic network",
+            "data_centre_acquisition_software": "Automatic real-time analysis, quality check, archive, data completion and distribution freely available or home-grown.",
+            "data_centre_hardware": "Monitoring room with terminals, video walls, storage area network and backup power system in Rome. The main components are mirrored in Grottaminarda (South Italy).",
+            "data_centre_storage_capacity_tb": "20",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": ": Archive is in SDS (file system), organized in miniseed daily files per component. Metadata (station information) and paramentric data (event data) are stored and dealt with a MySQL database.",
+            "data_volume_tb": "20",
+            "data_volume_growth_rate_tb-y": "4.2",
+            "dc_connectivity_bandwidth": "Internet: 80+80 MBs",
+            "dc_connectivity_protocols": "SeedLink, Earthworm and Nanometrics. Arclink protocol is in use for archived data",
+            "dc__objective": "off-line and real-time seismic data visualization, analysis, QC, archiving, distribution. Earthquake information and products (locations, magnitudes, ShakeMaps",
+            "dc_software": "SeiscomP Earthworm",
+            "licenced_software": "",
+            "data_policy": "Archived data are open. Data in real time are open on bilateral agreements."
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e9101fe65",
+            "_rev": "4-b129acc4f1ee18e6825141e5b4d0e44a",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Mediterrean Network (MEDNET)",
+            "data_centre_acquisition_software": "Seedlink",
+            "data_centre_hardware": "Servers for acquisition, quality check and archiving in a storage area networkin Rome, mirrored in Grottaminarda (South Italy).",
+            "data_centre_storage_capacity_tb": "",
+            "data_centre_growth_rate_storage_capacity_tb-y": "",
+            "data_organization": "Archive is in SDS (file system), organized in miniseed daily files per component. Metadata (station information) and paramentric data (event data) are stored and dealt with a MySQL database",
+            "data_volume_tb": 1.2,
+            "data_volume_growth_rate_tb-y": "0.3",
+            "dc_connectivity_bandwidth": "Internet: 100+100 MBs",
+            "dc_connectivity_protocols": "SeedLink, Earthworm",
+            "dc__objective": "Automatic real-time quality check, archive, data completion and distribution, open or home-grown",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ": Archived data are open. Data in real time are open on bilateral agreements."
+        },
+        {
+            "_id": "f39dd0d8310c35ed95960c0e910208fc",
+            "_rev": "3-76b2bfa237a9ce70c3b88fe71d79d60d",
+            "doctype": "datacentre",
+            "status": "",
+            "ri_name": "Italian mobile seismic network",
+            "data_centre_acquisition_software": "",
+            "data_centre_hardware": "",
+            "data_centre_storage_capacity_tb": "5",
+            "data_centre_growth_rate_storage_capacity_tb-y": "1",
+            "data_organization": "",
+            "data_volume_tb": "5",
+            "data_volume_growth_rate_tb-y": "1",
+            "dc_connectivity_bandwidth": "",
+            "dc_connectivity_protocols": "",
+            "dc__objective": "",
+            "dc_software": "",
+            "licenced_software": "",
+            "data_policy": ""
+        }
+    ]
+
+}

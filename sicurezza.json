@@ -1,0 +1,1 @@
+{"admins": {"names": ["epos-couch"], "roles": []}, "writers": {"names": ["epos-couch"], "roles": []}, "cloudant": {"nobody": ["_reader", "_writer", "_admin"]}, "readers": {"names": ["epos-couch"], "roles": []}}

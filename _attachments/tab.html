@@ -1,0 +1,400 @@
+<!--
+        tab.html
+        
+        Copyright 2012 daniele <daniele@daniele-VirtualBox>
+        
+        This program is free software; you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation; either version 2 of the License, or
+        (at your option) any later version.
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License
+        along with this program; if not, write to the Free Software
+        Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+        MA 02110-1301, USA.
+        
+        
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>senza nome</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.20" />
+    
+<!--  css links-->
+
+  <link rel="stylesheet"  media="screen" href="style/main.css" type="text/css" />
+<!--
+  <link type="text/css" href="script/jqueryUI/css/custom-theme/jquery-ui-1.8.16.custom.css"  rel="stylesheet" >
+-->
+  <link rel="stylesheet"  media="screen" href="style/colorbox.css" type="text/css" />
+  <link href="script/visualsearch/build-min/visualsearch-datauri.css" media="screen" rel="stylesheet" type="text/css" />
+
+   <link href="style/accordion.css" media="screen" rel="stylesheet" type="text/css" />
+   <link href="script/AjaxStack/src/jsonreport/jsonreport.css" media="screen" rel="stylesheet" type="text/css" />
+   <link type="text/css" href="script/mcdropdown/css/jquery.mcdropdown.css" rel="stylesheet" media="all" />
+
+
+			<!-- Attach tour CSS -->
+	  	<link rel="stylesheet" href="script/joyride/joyride-1.0.3.css">
+	  	
+
+
+
+    
+
+<!--  javascript links-->
+    <script type="text/javascript" src="script/test/vendor/json2.js"></script>
+    <script type="text/javascript" src="script/jquery-1.7.1-min.js"></script>
+    <script type="text/javascript" src="script/jquery.couch.js"></script>
+    <script type="text/javascript" src="script/jquery.couchLogin.js"></script> 
+    <script type="text/javascript" src="script/underscore.js"></script>
+
+    <script type="text/javascript" src="script/backbone.js"></script> 
+    <script type="text/javascript" src="script/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="script/jqueryUI/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <script type ="text/javascript" src="script/visualsearch/build/visualsearch.js"></script>
+    <script type ="text/javascript" src="script/AjaxStack/src/jsonreport/jsonreport.js"></script>
+    
+    <script type="text/javascript" src="script/highcharts/js/highcharts.js"></script>
+    
+    
+    <script type="text/javascript" src="script/highcharts/js/modules/exporting.js"></script>
+    <script type="text/javascript" src="script/jquery.simpletip-1.3.1.pack.js"></script>
+    <script type="text/javascript" src="script/mcdropdown/lib/jquery.mcdropdown.min.js"></script>
+    <script type="text/javascript" src="script/mcdropdown/lib/jquery.bgiframe.js"></script>
+    
+
+		<!-- Attach tour JS -->
+		<script type="text/javascript" src="script/joyride/jquery.joyride-1.0.3.js"></script>
+        <script type="text/javascript">
+            
+
+////*******************************   HELPERS ************************//////
+	
+    //creates an nD array of zeros
+	function zeros(dimensions) {
+		var array = [];
+
+		for (var i = 0; i < dimensions[0]; ++i) {
+			array.push(dimensions.length == 1 ? 0 : zeros(dimensions.slice(1)));
+		}
+
+		return array;
+	}
+    
+    //gives a random hash string of 32 chars
+	function randomHashString() {
+	    var chars = "0123456789abcdefghiklmnopqrstuvwxyz";
+	    var string_length = 32;
+	    var randomstring = '';
+	    for (var i=0; i<string_length; i++) {
+		    var rnum = Math.floor(Math.random() * chars.length);
+		    randomstring += chars.substring(rnum,rnum+1);
+		}
+	    return randomstring;
+	    }
+	
+	//function to get data from server (view or list), used in visualsearch callbacks definition 
+	function getJSONData(myurl) {
+	var data;
+	$.ajax({
+	    async: false, //thats the trick
+	    url: myurl,
+	    dataType: 'json',
+	    success: function(response){
+	       data = response;
+			    }
+		    });
+	return data;
+	}
+	
+	//func to get as 1-level json object all nested backboneJSONform objects. Like this:
+     //~ {ri_name: 'Text',ri_type: 'Select',  file_path:'Text'}}
+    function fieldTypeList(JSONobj){
+        var returnObj=new Object();
+        for (var item in JSONobj){
+            for (var field in JSONobj[item]){
+                //~ console.log(field, ':',JSONobj[item][field]['type']);
+                returnObj[field]=JSONobj[item][field]['type'];
+                }
+            }
+        return returnObj;
+        }
+	
+
+	//*************** GLOBAL VARS *****************
+    
+    //general purpose
+    var generalPurposeGlobalVar={}; //general purpose global var
+    
+    // var for couchdb fetching
+    var RUfacets=getJSONData('_list/json_field_names/field_names');
+	var RUvalueMatches=getJSONData('_list/facets_category_value_array/allfields');
+	var JSONriDescription='_list/aggregate_items/allfields_RIaskey';
+	var JSONriView="_view/allfields_RIaskey";
+    
+    
+    
+	//far for backbone forms
+	var ri_types=["PLEASE SELECT","Seismic Network","Volcano Observatory","Geological Repository","GPS Network","International Data Infrastructure","Laboratory","Data repository","In-situ fault-zone observatory","EPOS Supersite","Marine Research Infrastructures","Geomagnetic Observatory/network","Satellite data processing infrastructure","Computational Infrastructure (independent of monitoring RIs)","Other","N/A"];
+	var seismic_network_kinds=["PLEASE SELECT","National", "Regional", "Local", "Mobile","Other","N/A"];
+	var data_type_options=["PLEASE SELECT","TimeSeries","metadata", "Parametric","other","N/A"];
+	var data_format_options=["PLEASE SELECT","GFC","GSE","SAC","ASCII","miniSEED","Earthworm","nanometrics","seisan","other","N/A"];
+	var data_transmission_options=["PLEASE SELECT","real-time","delayed","on-demand","dial-up","dial-in","other","N/A"];
+	var data_policy_options=["PLEASE SELECT","open","restricted","on-request","closed","other","N/A"];
+	var seismicStationTypes=["PLEASE SELECT","very broadband","broadband","strongmotion","shortperiod","very broadband / strongmotion","broadband / strongmotion","shortperiod / strongmotion","N/A"];
+	var wg_list=[1,2,3,4,5,6,7,8];
+	var lab_data_policy=["PLEASE SELECT","payment","collaboration only","free of charge","other"];
+	var instr_ded_pers=["PLEASE SELECT","yes-permanent","yes-not permanent","no"];
+    var countries=["PLEASE SELECT","portugal", "switzerland", "czech_republic", "germany", "denmark", "spain", "france", "greece", "ireland", "poland", "romania", "sweden", "united_kingdom", "netherlands", "italy", "norway", "turkey", "iceland", "international-organization"];
+    var lab_res_field=["PLEASE SELECT","analytical", "experimental petrology and volcanology","rock physics","paleomagnetism","tectonic modeling"];
+	
+	//MODELS FOR different kinds of equipment, USED IN THE POPUP UPDATE FORM 
+	var LabInstrument = {
+		schema:{
+			type: {type:'Text'},
+			brand: {type:'Text'},
+			specifics: {type:'TextArea'},
+			year_of_acquisition: {type:'Date', title:"Year of acquisition"},
+			purchase_value: {type:'Number', title:"Purchase Value (euros)"},
+			quantity: {type:'Number'},
+			access_policy: {type:'Select',options:lab_data_policy,title:"Access policy"},
+			instrument_www:{type:'Text', title:"instrument website"},
+			instrument_contact_person:{type:"Text", title:"Instrument contact person"},
+			instrument_contact_person_phone:{type:"Text", title:"Instrument contact person Phone"},
+			instrument_contact_person_email:{type:"Text", title:"Instrument contact person email"},
+			instrument_personnel:{type:'Select', options:instr_ded_pers, title:'Instrument dedicated personnel'},
+			comments:{type:'TextArea'}
+			}
+		};
+		
+	var seismicSation = {
+		schema:{
+			Station_code:{type:'Text'},
+			type: {type:'Select', options:seismicStationTypes},
+			gpsLat:{type:'Number',title:"Latitude (deg, 3 dec places)"},
+			gpsLon:{type:'Number',title:"Longitude (deg, 3 dec places)"},
+			gpsElev:{type:'Number',title:"Elemation (m, no dec places)"},
+            data_transmission: {type:'Select', options: data_transmission_options, title:"Data transmission"},
+			number_of_sensors: {type:'Select', options:[1,2]}
+			}
+		};
+
+    var backboneJSONform={
+        ri:{
+			   _id: {type:'Hidden'},
+			   _rev: {type:'Hidden'},
+			   doctype: {type:'Hidden'},
+			   ri_name: {type:'Text', title:"RI NAME", help:"This is the RI name. Name format: Institution - RI name"},
+			   ri_type: {type:'Select', options:ri_types, title:"RI type"},
+			   file_path:{type:'Text', title:"File path"},
+			   country: {type:'Select', options:countries},
+			   ri_institution:{type:'Text', title:"RI institution"},
+			   ri_website:{type:'Text', dataType:"url", title:"RI website"},
+			   wg_main: {type:'Select',options:wg_list, title: "WG (main)"},
+			   wg_related: {type:'List', listType:'Select',options:wg_list, title:"WG (related)"},
+			   ri_manager:{type:'Text', title: "RI manager"},
+			   ri_manager_email:{ type:'Text', dataType: 'email', validators: ['required'], title:"RI manager email" },
+			   ri_manager_phone: {type:'Text', title:"RI manager phone"},
+			   ri_manager_institution: {type:'Text', title:"RI manager institution"},
+			   national_contact_person: {type:'Text', title:"National contact person"},
+			   national_contact_person_email:{ dataType: 'email', validators: ['required'], title:"National contact person email" },
+			   national_contact_person_phone:{type:'Text', title:"National contact person phone"},
+			   national_contact_person_institution: {type:'Text', title:"National contact person institution"},
+			   legal_contact_person: {type:'Text', title:"Legal contact person"},
+			   legal_contact_person_email:{ dataType: 'email', validators: ['required'], title:"Legal contact person email" },
+			   legal_contact_person_phone: {type:'Text', title:"Legal contact person phone"},
+			   legal_contact_person_institution: {type:'Text', title:"Legal contact person institution"},
+			   financial_contact_person: {type:'Text', title:"Financial contact person"},
+			   financial_contact_person_email:{ dataType: 'email', validators: ['required'], type:'Text', title:"Financial contact person email" },
+			   financial_contact_person_phone: {type:'Text', title:"Financial contact person phone"},
+			   financial_contact_person_institution: {type:'Text', title:"Financial contact person institution"},
+			   comments:{type:'TextArea'}
+			},
+			
+		generic_facility:{
+		   _id: {type:'Hidden'},
+		   _rev: {type:'Hidden'},
+		   doctype: {type:'Hidden'},
+		   ri_name: {type:'Hidden'},
+		   facility_type: {type:'Text'},
+		   network_code:{type:'Text'},
+		   kind: {type:'Select', options:seismic_network_kinds },
+		    equipment: {type:'List', listType:'NestedModel', model: seismicSation, itemToString:function(instrument){
+					var myText=(instrument.Station_code+' --\t'+instrument.type);
+					//~ alert(myText);
+					return myText;
+					}
+				},
+		   site_of_study: {type:'Text',  help: 'In case of Array or localized network' },
+		    data_type: {type:'Select', options:data_type_options},
+		   data_format: {type:'Select', options:data_format_options},
+		   data_transmission: {type:'Select', options: data_transmission_options},
+		   data_policy: {type:'Select', options:data_policy_options },
+					   purchase_value: {type:'Number'},
+		   year_of_acquisition: {type:'Date'},
+		   location: {type:'Text'},
+		   specifics: {type:'Text'},
+		   data_policy: {type:'Text'},
+		    other_details: {type:'TextArea'}
+		},
+			
+		seismic_net:{
+			   _id: {type:'Hidden'},
+			   _rev: {type:'Hidden'},
+			   doctype: {type:'Hidden'},
+			   ri_name: {type:'Hidden'},
+			   facility_type: {type:'Hidden'},
+			   network_code:{type:'Text', title:"Network code", title:"Network code"},
+			   kind: {type:'Select', options:seismic_network_kinds },
+			    stations: {type:'List', listType:'NestedModel', model: seismicSation, itemToString:function(instrument){
+						var myText=(instrument.Station_code+' --\t'+instrument.type);
+						//~ alert(myText);
+						return myText;
+						}
+					},
+			   site_of_study: {type:'Text',  title:"Site of study"},
+			    data_type: {type:'Select', options:data_type_options, title:"Data type"},
+			   data_format: {type:'Select', options:data_format_options, title:"Data format"},
+			   data_policy: {type:'Select', options:data_policy_options, title:"Data policy" },
+			    other_details: {type:'TextArea', title:"Other details"}
+			},
+			
+		gps_net:{
+			   _id: {type:'Hidden'},
+			   _rev: {type:'Hidden'},
+			   doctype: {type:'Hidden'},
+			   ri_name: {type:'Hidden'},
+			   facility_type: {type:'Hidden'},
+			   kind: {type:'Text'},
+			   quantity: {type:'Number'},
+			    equipment: {type:'List', listType:'NestedModel', model: LabInstrument, itemToString:function(instrument){
+						var myText=(instrument.quantity+' \t'+instrument.type);
+						return myText;
+						}
+					},
+			   location: {type:'Text'},
+			   coverage: {type:'List', listType:'Text'},
+			   site_of_study: {type:'Text', title:"Site of study"},
+			   specifics: {type:'Text'},
+			    data_type: {type:'List', listType:'Text', title:"Data type"},
+			   data_format: {type:'List', listType:'Text', title:"Data format"},
+			   data_transmission: {type:'Text', title:"Data transmission"},
+			   data_policy: {type:'Text', title:"Data policy"},
+			   status: {type:'Hidden'},
+			    other_details: {type:'TextArea',title:"Other details"}
+			},
+			
+		 laboratory:{
+			   _id: {type:'Hidden'},
+			   _rev: {type:'Hidden'},
+			   doctype: {type:'Hidden'},
+			   ri_name: {type:'Hidden'},
+			   facility_type: {type:'Hidden'},
+			   laboratory_name: {type:'Text', title:"Laboratory name"},
+               laboratory_research_field:{type:'Select', options:lab_res_field, title:"Laboratory Research Field"},
+			    equipment: {type:'List', listType:'NestedModel', model: LabInstrument, itemToString:function(instrument){
+						var myText=(instrument.quantity+' \t'+instrument.type);
+						//~ alert(myText);
+						return myText;
+						}
+					},
+			   lab_contact_person:{type:"Text", title:"Laboratory contact person"},
+			   lab_contact_person_phone:{type:"Text", title:"Laboratory contact person Phone"},
+			   lab_contact_person_email:{type:"Text", title:"Laboratory contact person email"},
+			   lab_address: {type:'Text', title:"Full address (st., city, PObox)"},
+			   lab_city:{type:'Text', title:"City"},
+			   lab_location: {type:'Text', title:"Lab gps coords"},
+			   lab_www:{type:'Text', title:"Laboratory website"},
+			   data_type: {type:'List', listType:'Text', title:"Data type"},
+			   status: {type:'Hidden'},
+			    other_details: {type:'TextArea',title:"Other details"}
+			},
+			
+		datacentre:{
+			   _id: {type:'Hidden'},
+			   _rev: {type:'Hidden'},
+			   doctype: {type:'Hidden'},
+			   status: {type:'Hidden'},
+			   ri_name: {type:'Hidden'},
+			   data_centre_acquisition_software: {type:'Text', title:"Data centre acquisition software"},
+			   data_centre_hardware: {type:'Text', title:"Data centre hardware"},
+			   data_centre_storage_capacity_tb: {type:'Number', title:"Data centre storage capacity tb"},
+			   "data_centre_growth_rate_storage_capacity_tb-y": {type:'Number', title:"Data centre growth rate storage capacity tb-y"},
+			   data_organization: {type:'Text', title:"Data organization"},
+			   data_volume_tb: {type:'Number', title:"Data volume tb"},
+			   "data_volume_growth_rate_tb-y": {type:'Number', title:"Data volume growth rate tb-y"},
+			   dc_connectivity_bandwidth: {type:'Text', title:"Dc connectivity bandwidth"} ,
+			   dc_connectivity_protocols: {type:'Text', title:"Dc connectivity protocols"},
+			   dc_objective: {type:'Text', title:"Dc  objective"},
+			   dc_software: {type:'Text', title:"Dc software"},
+			   licenced_software: {type:'Text', title:"Licenced software"},
+			   data_policy: {type:'Text', title:"Data policy"}
+			},
+		dataarchive:{
+		   "_id": {type:'Hidden'},
+		   "_rev": {type:'Hidden'},
+		   "doctype": {type:'Hidden'},
+		   "status": {type:'Hidden'},
+		   "ri_name": {type:'Hidden'},
+		   "data_archive_data_type": {type:'List', listType:'Text', title: 'Data Archive data type'},
+		   "data_archive_software": {type:'Text', title:"Data archive software"},
+		   "data_archive_hardware": {type:'Text', title:"Data archive hardware"},
+		   "data_archive_organization": {type:'Text', title:"Data archive organization"},
+		   "data_archive_storage_tb": {type:'Number', title: "Data archive storage (TB)"},
+		   "data_archive_volume_tb": {type:'Number', title:"Data archive volume (TB)"},
+		   "data_archive_volume_growth_rate_tb-y": {type:'Number', title: "Data Archive Volume growth rate (TB/y)"},
+		   "data_archive_os": {type:'Text', title:"Data Archive Operating System"},
+		   "data_archive_access": {type:'Text', title:"Data archive access"},
+		   "data_archive_policy": {type:'Text', title:"Data archive policy"}
+			},
+		financial:{
+		    "_id": {type:'Hidden'},
+		   "_rev": {type:'Hidden'},
+		    "ri_name":{type:'Hidden'},
+		    "doctype":{type:'Hidden'},
+		    "ri_total_value":{type:'Number', title:"RI total Value"},
+		    "total_labour_costs":{type:'Text', title:"Total Labour costs"},
+		    "total_labour_full_time_equivalent":{type:'Number', title:"Total Labour full time equivalent"},
+		    "annual_running_cost_budget":{type:'Number', title:"Annual running cost budget"},
+		    "total_common_services_participating":{type:'Number', title:"Total common services participating"},
+		    "total_cost_of_RI":{type:'Number', title:"Total cost of RI"},
+		    "total_funding_of_labour":{type:'Number', title:"Total funding of labour"},
+		    "total_funding_of_labour_full_time_equivalent":{type:'Number', title:"Total funding of labour full time equivalent"},
+		    "total_funding_of_running_costs":{type:'Number', title:"Total funding of running costs"},
+		    "total_funding_for_RI":{type:'Number', title:"Total funding for RI"},
+		    "comments":{type:'TextArea'}
+		    }
+	};
+
+$(window).load(function() {
+                var oggetto= LabInstrument;
+				for (var section in  oggetto){
+                    $("#tabelle").append("<table id='" +section +"' border='1'><tr><td>Field Name</td><td>type</td><td>Values</td><td>comments</td></tr>");
+                    for (var line in oggetto[section]){
+                        $("#"+section).append("<tr> <td>"+line+"</td><td>"+oggetto[section][line].type+"</td><td>"+oggetto[section][line].options+"</td><td>null</td></tr>");
+                        }
+                    $("#tabelle").append("</table><br><br>");
+                    }
+			});
+    
+    </script>
+</head>
+
+<body>
+	<div id="tabelle">
+    
+    </div>
+</body>
+
+</html>

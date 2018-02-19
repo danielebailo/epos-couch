@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EPOS-couch</title>
+    <script src="script/test/vendor/jquery-1.6.4.js"></script>
+
+<script type="text/javascript">
+window.onload=function() {
+function countdown() {
+if ( typeof countdown.counter == 'undefined' ) {
+    countdown.counter = 3; // initial count
+    }
+if(countdown.counter > 0) {
+	document.getElementById('count').innerHTML = countdown.counter--;
+    setTimeout(countdown, 1000);
+    }
+else {
+    location.href = 'index.html';
+    }
+}
+countdown();
+};
+</script>
+       
+
+
+
+</head>
+<body >
+	<h1 style="color:green"> EPOS Research Infrastructure Inventory Database has moved </h1>
+	<h2>Click <a href="index.html">here </a> or wait 
+	 <span id="count" style="color:red;font-weight:bold"></span> seconds to be redirected.</h2>
+    </body>
+
+
+
+</html>

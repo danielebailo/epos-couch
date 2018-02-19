@@ -1,0 +1,156 @@
+<!--
+   whatsride.html
+   
+   Copyright 2012 daniele <daniele@daniele-VirtualBox>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>What is EPOS</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.21" />
+	<link href='http://fonts.googleapis.com/css?family=Cantata+One|Fredericka+the+Great' rel='stylesheet' type='text/css'>
+	    <script type="text/javascript" src="script/jquery-1.7.1-min.js"></script>
+	<script type="text/javascript" src="script/textualizer/textualizer.js"></script>
+	
+<style>
+	#popuppage{
+    display:block;
+
+    /*set the div in the top-left corner of the screen*/
+    position:absolute;
+    top:0;
+    left:0;
+    
+    /*set the width and height to 100% of the screen*/
+    width:100%;
+    height:100%;
+}
+
+#ride-logo-mini{
+	margin:0px;
+	float:right;
+	padding:0px;
+}
+
+#logo-mini{
+	margin:20px;
+	float:left;
+	}
+	
+#what{
+	font-family: 'Fredericka the Great', cursive;
+	font-size:70px;
+	display:block;
+	float: center;
+	margin: auto;
+	width: 600px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	
+	}
+	
+	.bigfont{
+	font-family: 'Fredericka the Great', cursive;
+	font-size:50px;
+	margin:10px;
+	padding: 30px;
+	}
+
+#next{
+	font-family: 'Fredericka the Great', cursive;
+	font-size:70px;
+	display:block;
+	float:right;
+	font-size:40px;
+	clear:both;
+	margin:40px;
+	}
+	
+#text{
+	font-family: 'Verdana', serif;
+	font-size:22px;
+	display:block;
+	margin: auto;
+	line-height: 150%;
+	clear:both;
+	width:600px;
+	height:400px;
+	padding:10px;
+	}
+
+#next{
+	cursor:pointer;
+	}
+</style>
+
+
+</head>
+
+
+
+
+<body>
+	<div id="popuppage">
+
+		<div id="what">
+			WHAT's E.P.O.S.?  
+		</div>
+		
+		<div id="text" width="600px" height="400px">
+		</div>
+		<div id="next"><a href='#'>Next..</a></div>
+		<div id="logo-mini">
+			<a href= "http://www.epos-eu.org/" target="_blank"><img alt=" EPOS LOGO" src="img/EPOS_Logo-mini.jpg" /></a>
+		</div>
+
+	</div>
+	
+</body>
+<script type="text/javascript">
+	
+	$(document).ready(function() {
+    
+		var textList=["1. The European Plate Observing System (EPOS) is the integrated solid Earth Sciences research infrastructure approved by the European Strategy Forum on Research Infrastructures (ESFRI) and included in the ESFRI Roadmap in December 2008. EPOS is a long-term integration plan of national existing RIs.","2. The goal of EPOS is to promote and make possible innovative approaches for a better understanding of the physical processes controlling earthquakes, volcanic eruptions, unrest episodes and tsunamis as well as those driving tectonics and Earth surface dynamics. Integration of the existing national and trans-national RIs will increase access and use of the multidisciplinary data recorded by the solid Earth monitoring networks, acquired in laboratory experiments and/or produced by computational simulations. Establishment of EPOS will foster worldwide interoperability in Earth Sciences and provide services to a broad community of users", "3. More info at EPOS website: http://www.epos-eu.org/ clicking the logo below/left"];
+		
+		var txt = $('#text');
+		var options = {
+			duration: 800,          // Time (ms) each blurb will remain on screen
+			rearrangeDuration: 1000, // Time (ms) a character takes to reach its position
+			effect: 'random',        // Animation effect the characters use to appear
+			centered: true           // Centers the text relative to its container
+			}
+			
+		txt.textualizer(textList, options); // textualize it!
+		txt.textualizer('start'); // start
+		txt.textualizer('pause');
+		$('#next').click(function(){
+			txt.textualizer('start'); // start
+			txt.textualizer('pause');
+			$('#next').hide();
+			setTimeout("$('#next').show();",4000);
+			});
+		});
+		
+</script>
+</html>

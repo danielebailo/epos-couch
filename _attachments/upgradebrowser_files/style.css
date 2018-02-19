@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+/*========== 
+CSS Document
+==========*/
+
+
+/*========== reset ==========*/
+html {
+	overflow-y:scroll;
+}
+
+html a {
+	outline:0;
+}
+
+html:focus {
+	outline:0;
+}
+
+img {
+	border:none;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
+pre, a, abbr, address, big, cite, code, del, em, font, img, small, strike, strong, b, u, 
+i, center, ul, li, fieldset, form, label, legend, caption {
+	background:transparent;
+	border:0;
+	margin:0;
+	outline:0;
+	padding:0;
+}
+
+ul {
+	list-style:none;
+}
+
+del {
+	text-decoration:line-through;
+}
+
+.wrap-l {
+	float:left;
+}
+
+.wrap-r {
+	float:right;
+}
+
+/*========== main layout styles ==========*/
+body {
+	background:#222 url(../images/body-bg.jpg) repeat;
+	margin:0px;
+	padding:0px;
+	font:87.5%/1 "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#333;
+}
+
+#swrap {
+	width:990px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+}
+
+#container {
+	width:930px;
+	float:left;
+	height:auto;
+	background:#fff;
+	-webkit-border-radius:20px;
+	-khtml-border-radius:20px;
+	-moz-border-radius:20px;
+	border-radius:20px;
+	padding:30px;
+	margin:50px 0px 30px;
+}
+
+.logo-box {
+	float:left;
+	padding-top:20px;
+	width:310px;
+	text-align:center;
+}
+
+/*========== text and link styles ==========*/
+@font-face {
+font-family:'TitilliumText14L999wt';
+src:url('../fonts/til/TitilliumText999wt.eot');
+src:local('TitilliumText14L 999 wt'), local('TitilliumText14L-999wt'), url('../fonts/til/TitilliumText999wt.woff') format('woff'), url('../fonts/til/TitilliumText999wt.otf') format('opentype'), url('../fonts/til/TitilliumText999wt.svg#TitilliumText14L-999wt') format('svg');
+}
+@font-face {
+font-family:'TitilliumText14L400wt';
+src:url('../fonts/til/TitilliumText400wt.eot');
+src:local('TitilliumText14L 400 wt'), local('TitilliumText14L-400wt'), url('../fonts/til/TitilliumText400wt.woff') format('woff'), url('../fonts/til/TitilliumText400wt.otf') format('opentype'), url('../fonts/til/TitilliumText400wt.svg#TitilliumText14L-400wt') format('svg');
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow:#ccc 3px 3px 2px; /*x-co, y-co, blur*/
+	text-transform:capitalize;
+	font-family:'TitilliumText14L999wt', "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size:3.8em;
+	margin:0em 0em 0.3em;
+}
+
+h2 {
+	font-size:2.6em;
+	margin:0.9em 0em 0.3em;
+}
+
+h3 {
+	font-size:2.2em;
+	margin:0em 0em 0.3em;
+}
+
+h4 {
+	font-size:1.6em;
+}
+
+h5 {
+	font-size:1.4em;
+}
+
+h6 {
+	font-size:1.2em;
+}
+
+p {
+	font-size:1.6em;
+	font-family:'TitilliumText14L400wt', "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:0em 0em 0.6em;
+}
+
+a {
+	text-decoration:underline;
+	color:#333;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#000;
+}
+
+li {
+	font-size:1.6em;
+	font-family:'TitilliumText14L400wt', "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:1.6em;
+}
+
+/*========== footer ==========*/
+#footer {
+	float:left;
+	width:100%;
+	height:40px;
+	text-align:center;
+	text-transform:capitalize;
+}
+
+#footer p {
+	margin:0;
+	color:#fff;
+}
+
+#footer a {
+	text-decoration:underline;
+	color:#fff;
+}
+
+#footer a:hover {
+	text-decoration:none;
+	color:#ccc;
+}

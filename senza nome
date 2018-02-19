@@ -1,0 +1,108 @@
+{	
+"doctype":"ri",
+"file_path":"EPOS_D_WG6_Dinguell",
+"ri_name":""LMU" - experimental volcanology laboratory",
+"ri_type":"analytical and experimental laboratories",
+"country":"germany",
+"ri_institution":"LMU"
+"ri_website":http://www.en.mineralogie.geowissenschaften.uni-muenchen.de/ueber_uns/portrait/index.html
+"wg_main":6
+"wg_related":[]
+"ri_manager":" Donald Dingwell",
+"ri_manager_email":Dingwell@"LMU".de
+"ri_manager_phone":"+49-89-21804250",
+"ri_manager_institution":"department of earth & environmental sciences, Ludwig-maximilians-univesitat Munich",
+"national_contact_person":"Joern Lauterjung",
+"national_contact_person_email":lau@gfz-potsdam.de
+"national_contact_person_phone":"+390816108335",
+"national_contact_person_institution":"GFZ",
+"legal_contact_person":"Marko Blau",
+"legal_contact_person_email":blau@gfz-potsdam.de
+"legal_contact_person_phone":"+49(0)3312881052",
+"legal_contact_person_institution":"GFZ",
+"financial_contact_person":"Marko Blau",
+"financial_contact_person_email":""blau@gfz-potsdam.de",
+"financial_contact_person_phone":"+49(0)3312881052",
+"financial_contact_person_institution":"GFZ"
+},
+{	
+"doctype":"ri",
+"file_path":"",
+"ri_name":""LMU" - fragmentation laboratory",
+"ri_type":"analytical and experimental laboratories",
+"country":"germany",
+"ri_institution":"LMU"
+"ri_website":http://www.en.mineralogie.geowissenschaften.uni-muenchen.de/ueber_uns/portrait/index.html
+"wg_main":6
+"wg_related":[]
+"ri_manager":" Bettina Scheu ",
+"ri_manager_email":betty@min.uni-muenchen.de
+"ri_manager_phone":"+49 (0) 89 2180 4259",
+"ri_manager_institution":""LMU" Munich department of earth and environmental sciences section for mineralogy, petrology and geochemistry",
+"national_contact_person":"Joern Lauterjung",
+"national_contact_person_email":lau@gfz-potsdam.de
+"national_contact_person_phone":"+390816108335",
+"national_contact_person_institution":"GFZ",
+"legal_contact_person":"Marko Blau",
+"legal_contact_person_email":blau@gfz-potsdam.de
+"legal_contact_person_phone":"+49(0)3312881052",
+"legal_contact_person_institution":"GFZ",
+"financial_contact_person":"Marko Blau",
+"financial_contact_person_email":blau@gfz-potsdam.de
+"financial_contact_person_phone":"+49(0)3312881052",
+"financial_contact_person_institution":"GFZ"
+},
+{	
+"doctype":"ri",
+"file_path":"",
+"ri_name":""LMU" - high temperature synthesis and sample preparation laboratory",
+"ri_type":"analytical and experimental laboratories",
+"country":"germany",
+"ri_institution":"LMU"
+"ri_website":http://www.en.mineralogie.geowissenschaften.uni-muenchen.de/ueber_uns/portrait/index.html
+"wg_main":6
+"wg_related":[]
+"ri_manager":" Werner Ertl-Ingrisch ",
+"ri_manager_email":ertel-ingrisch@"LMU".de
+"ri_manager_phone":"+49 (0) 89 2180 4157",
+"ri_manager_institution":""LMU" Munich department of earth and environmental sciences section for mineralogy, petrology and geochemistry",
+"national_contact_person":"Joern Lauterjung",
+"national_contact_person_email":lau@gfz-potsdam.de
+"national_contact_person_phone":"+390816108335",
+"national_contact_person_institution":"GFZ",
+"legal_contact_person":"Marko Blau",
+"legal_contact_person_email":blau@gfz-potsdam.de
+"legal_contact_person_phone":"+49(0)3312881052",
+"legal_contact_person_institution":"GFZ",
+"financial_contact_person":"Marko Blau",
+"financial_contact_person_email":blau@gfz-potsdam.de
+"financial_contact_person_phone":"+49(0)3312881052",
+"financial_contact_person_institution":"GFZ"
+},
+{	
+"doctype":"ri",
+"file_path":"",
+"ri_name":""LMU" - Isotope laboratory",
+"ri_type":"analytical and experimental laboratories",
+"country":"germany",
+"ri_institution":"LMU"
+"ri_website":http://www.en.mineralogie.geowissenschaften.uni-muenchen.de/ueber_uns/portrait/index.html
+"wg_main":6
+"wg_related":[]
+"ri_manager":" Ernst Hegner ",
+"ri_manager_email":hegner@"LMU".de
+"ri_manager_phone":"+49 (0) 89 2180 4274",
+"ri_manager_institution":""LMU" Munich department of earth and environmental sciences section for mineralogy, petrology and geochemistry",
+"national_contact_person":"Joern Lauterjung",
+"national_contact_person_email":lau@gfz-potsdam.de
+"national_contact_person_phone":"+390816108335",
+"national_contact_person_institution":"GFZ",
+"legal_contact_person":"Marko Blau",
+"legal_contact_person_email":blau@gfz-potsdam.de
+"legal_contact_person_phone":"+49(0)3312881052",
+"legal_contact_person_institution":"GFZ",
+"financial_contact_person":"Marko Blau",
+"financial_contact_person_email":blau@gfz-potsdam.de
+"financial_contact_person_phone":"+49(0)3312881052",
+"financial_contact_person_institution":"GFZ"
+}

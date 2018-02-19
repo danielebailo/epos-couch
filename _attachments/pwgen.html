@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<body>
+	
+		<script >
+	$(function(){
+	for (j=0;j<=40;j++){
+		$("#pwd").append("  <b>password "+j.toString()+":</b> ")
+		for (i=0;i<=49;i++){
+			// between 0 - 1
+			var rndNum = Math.random()
+
+			// rndNum from 0 - 1000
+			rndNum = parseInt(rndNum * 1000);
+
+			// rndNum from 33 - 127
+			rndNum = (rndNum % 75) + 47;
+
+			textChar = String.fromCharCode(rndNum);
+			$("#pwd").append(textChar);
+			}
+			$("#pwd").append("<br>");
+		}
+    });
+    </script>
+</head>
+
+<div id="pwd"></div>
+    </body>
+
+
+</html>

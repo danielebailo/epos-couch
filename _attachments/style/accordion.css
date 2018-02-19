@@ -1,0 +1,144 @@
+.demo-show {
+    width: 90%;
+    margin-top:20px;
+    margin-left:5%;
+    margin-right:5%;
+    float:center;
+    
+}
+
+
+.demo-show div {
+/*
+    margin:auto;
+    display:block;
+    float:center;
+*/
+}
+
+
+.demo-show-contentcol{
+    display:block;
+    background-color: #E0EDDA;
+    float:right;
+    width: 75%;
+    -webkit-border-radius: 10px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius: 10px;
+    -moz-border-radius-topleft: 0;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+
+}    
+
+.demo-show-labelcol {
+    display:block;
+    width: 25%;
+    float:left;
+}
+
+.demo-show h3 {
+    background-color:#F1F1F1 ; /*#99CC00;*/
+    border-top-style:1px solid #386785;
+    border-bottom-style:1px solid #386785;
+    border-left-style:1px solid #386785;
+    margin-bottom:3px;
+    font-weight:bold;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left:4px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:0px;
+    margin-right:0px;
+}
+    
+/*
+.demo-show h3:hover {
+    background-color: #F1F1F1;
+}
+*/
+    
+/*************************** ADD ITEM DROPDOWN **************************************/
+#nav {
+		margin:0; 
+		padding:0; 
+		list-style:none;
+	}	
+	
+		#nav li {
+			float:left; 
+			display:block; 
+			width:100px; 
+			background:#E0E0E0; 
+			position:relative;
+			z-index:500; 
+			margin:0 1px;
+			-webkit-transition: all 0.1s ease-in-out;
+		}
+		#nav li.first {
+			border-radius:5px 0 0 5px;
+			-moz-border-radius:5px 0 0 5px;
+			}
+		#nav li.last {
+			border-radius:0 5px 5px 0;
+			-moz-border-radius:0 5px 5px 0;
+			}
+		#nav li li.last {
+			border-radius:0 0 5px 5px;
+			-moz-border-radius:0 0 5px 5px;
+			}
+		#nav li a {
+			display:block; 
+			padding:8px 5px 0 5px; 
+			font-weight:700;  
+			height:23px; 
+			text-decoration:none; 
+			text-align:center; 
+			color:#333;
+		}
+
+		#nav li a:hover {
+			color:#C00;
+		}
+		#nav li li:hover {
+			-webkit-transform: translate(+10px,0);
+			}
+	/
+		#nav a.selected {
+			color:#C00;
+		}
+	
+		#nav ul {
+			position:absolute; 
+			left:0; 
+			display:none; 
+			margin:0 0 0 -1px; 
+			padding:0; 
+			list-style:none;
+		}
+		
+		#nav ul li {
+			width:100px; 
+			float:left; 
+			border-top:1px solid #fff;
+		}
+		
+		#nav ul a {
+			display:block;  
+			height:auto;
+			padding: 8px 5px; 
+			color:#666;
+		}
+		/* fix ie6, meglio inserirlo in un file .css separato */
+		*html #nav ul {
+			margin:0 0 0 -2px;
+		}
+
+
+
+

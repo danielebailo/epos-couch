@@ -1,0 +1,157 @@
+<!--
+        profile.html
+        
+        Copyright 2012 daniele <daniele.bailo@ingv.it>
+        
+        This program is free software; you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation; either version 2 of the License, or
+        (at your option) any later version.
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License
+        along with this program; if not, write to the Free Software
+        Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+        MA 02110-1301, USA.
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>EPOS-COUCH profile</title>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <!--[if lt IE 9]>
+  <script type="text/javascript">
+    location.replace("upgradebrowser.html");
+  </script>
+  <![endif]-->
+    
+	<link rel="stylesheet" href="style/profile.css" type="text/css">
+	    <link rel="stylesheet" href="script/visualsearch/build-min/visualsearch-datauri.css" type="text/css" media="screen" charset="utf-8">
+
+   <link href="script/backbone-forms/src/backbone-forms.css" rel="stylesheet" type="text/css"/>
+   <link rel="stylesheet" href="style/colorbox.css" type="text/css">
+   <link rel="stylesheet" href="script/backbone-forms/test/lib/jquery-ui/flick/jquery-ui-1.8.14.custom.css" type="text/css">
+   <link href="style/accordion.css" media="screen" rel="stylesheet" type="text/css" />
+<!--
+   <link type="text/css" href="script/cruc-tooltip/tooltip.css" rel="stylesheet"  media="screen" />
+-->
+   <link href='http://fonts.googleapis.com/css?family=Exo:400,600' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Averia+Libre:400,700' rel='stylesheet' type='text/css'>
+      
+
+
+
+<!--
+  javascript links
+-->
+    <script src="script/test/vendor/json2.js"></script>
+    <script src="script/jquery-1.7.1-min.js"></script>
+    <script src="script/underscore.1.3.3-min.js"></script>
+    <script src="script/jquery.couch.js"></script>
+    <script src="script/jquery.couchLogin.js"></script> 
+    <script src="script/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="script/backbone.0.9.2-min.js"></script> 
+    <script type="text/javascript" src="script/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="script/jqueryUI/development-bundle/ui/jquery-ui-1.8.16.custom.js"></script>
+    <script type ="text/javascript" src="script/visualsearch/build/visualsearch.js"></script>
+    <script type ="text/javascript" src="script/AjaxStack/src/jsonreport/jsonreport.js"></script>
+    <script type="text/javascript" src="script/highcharts/js/highcharts.js"></script>
+    <script type="text/javascript" src="script/highcharts/js/modules/exporting.js"></script>
+    <script src="script/backbone-forms/src/backbone-forms.js"></script>
+    <script src="script/backbone-forms/src/jquery-ui-editors.js"></script>
+    <script type="text/javascript" src="script/cruc-tooltip/tooltip.js"></script>  
+    <script type="text/javascript" src="script/textualizer/textualizer.js"></script>
+    
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.18" />
+	
+	
+<!-- 	GOOGLE ANALYTICS -->
+    <!--[if gte IE 8]>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28615541-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<![endif]-->
+
+
+<script type="text/javascript">
+	
+	 
+
+</script>
+</head>
+
+<body>
+
+<div id="content">
+
+
+	
+	
+	  <div id="header" > 
+<!--
+    <span id="step0"></span>
+-->
+		<div id="top-head">
+			<div id="ride-logo"><img alt="RIDE Research Infrastructure Database for EPOS LOGO" src="img/RIDElogo.jpg" />
+			</div>
+			
+			<div id="epos-info-box">
+			</div>
+			
+			
+			
+		</div>
+		
+		<div class="navigare" id="nav1">
+			<ul>
+				<li id="welcome">Login</li>
+				<li > <a  class='ajax' onclick='jQuery().colorbox({ transition: "elastic", speed:400, width: "850px",height: "700px", iframe:true, href:"profile_help.html"});'  > Help</a></li>
+				<li ><a  href="index.html" >Back to RIDE</a></li>
+				
+			</ul>
+		</div>
+		
+		    </div>
+
+	
+	
+	<div class="toolbar">
+				<div id="search_box_container" ></div>
+				<div id="search_query">&nbsp;</div>
+				<div id="item-orderby">Order by: 
+					<select id="item-orderby-select">
+						<option value="ri_name">name</option>
+							<option value="country">country</option>
+							<option value="wg_main">WG</option>
+					</select><a href=# ><img src="img/arrow-up-down.jpg" style="vertical-align:middle" alt="arrow-up-down"></a>
+				</div>
+				
+
+	</div>
+    <div id="addRiBtn">  <span>Add Ri<img src='img/add-ri-mini-icon.png' alt='AddRI' /></span></div>
+	<ol id="ri-list"><center><img src="img/loading/loading-gif-animation.gif" width=80/ style="  padding:50px;"></center></ol>
+</div>
+
+</body>
+<script src="script/app_vars_and_helpers.js"> </script>
+<script src="script/profile_app.js"> </script>
+</html>

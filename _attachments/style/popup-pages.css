@@ -1,0 +1,64 @@
+#popuppage{
+    display:block;
+
+    /*set the div in the top-left corner of the screen*/
+    position:absolute;
+    top:0;
+    left:0;
+    
+    /*set the width and height to 100% of the screen*/
+    width:100%;
+    height:100%;
+}
+
+#ride-logo-mini{
+	margin:0px;
+	float:right;
+	padding:0px;
+}
+
+#logo-mini{
+	margin:20px;
+	float:left;
+	}
+	
+#what{
+	font-family: 'Fredericka the Great', cursive;
+	font-size:70px;
+	display:block;
+	float: center;
+	margin: auto;
+	width: 600px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	
+	}
+	
+	.bigfont{
+	font-family: 'Fredericka the Great', cursive;
+	font-size:50px;
+	margin:10px;
+	padding: 30px;
+	}
+
+#next{
+	font-family: 'Fredericka the Great', cursive;
+	font-size:70px;
+	display:block;
+	float:right;
+	font-size:40px;
+	clear:both;
+	margin:40px;
+	}
+	
+#text{
+	font-family: 'Verdana', serif;
+	font-size:22px;
+	display:block;
+	margin: auto;
+	line-height: 150%;
+	clear:both;
+	width:600px;
+	height:400px;
+	padding:10px;
+	}

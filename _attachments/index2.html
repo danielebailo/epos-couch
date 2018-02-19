@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>R.I.D.E.  :::  Research Infrastructure Database for EPOS </title>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">    
+<!--[if lt IE 9]>
+  <script type="text/javascript">
+    location.replace("upgradebrowser.html");
+  </script>
+  <![endif]-->
+    
+    
+    
+    
+    
+<!--  css links-->
+
+  <link rel="stylesheet"  media="screen" href="style/main.css" type="text/css" />
+<!--
+  <link type="text/css" href="script/jqueryUI/css/custom-theme/jquery-ui-1.8.16.custom.css"  rel="stylesheet" >
+-->
+  <link rel="stylesheet"  media="screen" href="style/colorbox.css" type="text/css" />
+  <link href="script/visualsearch/build-min/visualsearch-datauri.css" media="screen" rel="stylesheet" type="text/css" />
+
+   <link href="style/accordion.css" media="screen" rel="stylesheet" type="text/css" />
+<!--
+   <link href="script/AjaxStack/src/jsonreport/jsonreport.css" media="screen" rel="stylesheet" type="text/css" />
+-->
+   <link type="text/css" href="script/mcdropdown/css/jquery.mcdropdown.css" rel="stylesheet" media="all" />
+			<!-- Attach tour CSS -->
+	  	<link rel="stylesheet" href="script/joyride/joyride-1.0.3.css">
+        
+<!--     we just use ONE jquery ui inclusion, the one of backbone-forms -->
+    <link rel="stylesheet" href="script/jqueryUI/css/custom-theme2/jquery-ui-1.8.19.custom.css" type="text/css">
+    <link href="script/backbone-render/src/backbone-forms.css" rel="stylesheet" type="text/css"/>
+    <link href="style/accordion.css" media="screen" rel="stylesheet" type="text/css" />
+    <link type="text/css" href="script/atooltip/css/atooltip.css" rel="stylesheet"  media="screen" />
+	  	
+
+
+
+    
+
+<!--  javascript links-->
+    <script type="text/javascript" src="script/test/vendor/json2.js"></script>
+    <script type="text/javascript" src="script/jquery-1.7.1-min.js"></script>
+    <script type="text/javascript" src="script/jquery.couch.js"></script>
+    <script type="text/javascript" src="script/jquery.couchLogin.js"></script> 
+    <script type="text/javascript" src="script/underscore.js"></script>
+
+    <script type="text/javascript" src="script/backbone.js"></script> 
+    <script type="text/javascript" src="script/jquery.colorbox-min.js"></script>
+
+    <script type="text/javascript" src="script/jqueryUI/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <script type ="text/javascript" src="script/visualsearch/build/visualsearch.js"></script>
+    <script type ="text/javascript" src="script/AjaxStack/src/jsonreport/jsonreport.js"></script>
+    
+    <script type="text/javascript" src="script/highcharts/js/highcharts.js"></script>
+    
+    
+    <script type="text/javascript" src="script/highcharts/js/modules/exporting.js"></script>
+    <script type="text/javascript" src="script/jquery.simpletip-1.3.1.pack.js"></script>
+    <script type="text/javascript" src="script/mcdropdown/lib/jquery.mcdropdown.min.js"></script>
+    <script type="text/javascript" src="script/mcdropdown/lib/jquery.bgiframe.js"></script>
+    
+    
+
+		<!-- Attach tour JS -->
+		<script type="text/javascript" src="script/joyride/jquery.joyride-1.0.3.js"></script>
+    <script src="script/backbone-render/src/backbone-forms.js"></script>
+    <script src="script/backbone-render/src/jquery-ui-editors.js"></script>
+    <script type="text/javascript" src="script/atooltip/js/jquery.atooltip.min.js"></script>  
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBw0v9F-ur6pmeWrwCyFQ17qdZoikBon1Y&sensor=false"></script>
+<!--
+<script src="script/markerclusterer_packed.js" type="text/javascript"></script>
+-->
+    
+
+
+
+ <!--[if (!IE)|(gte IE 9)]><!-->   
+    
+<!--	IDEA INFORMER CODE-->
+    <script type="text/javascript">
+
+    reformal_wdg_w    = "713";
+    reformal_wdg_h    = "500";
+    reformal_wdg_domain    = "epos-couch";
+    reformal_wdg_mode    = 0;
+    reformal_wdg_title   = "Research infrastructure DB for EPOS - RIDE";
+    reformal_wdg_ltitle  = "Talk to us!";
+    reformal_wdg_lfont   = "";
+    reformal_wdg_lsize   = "";
+    reformal_wdg_color   = "#FFA000";
+    reformal_wdg_bcolor  = "#154525";
+    reformal_wdg_tcolor  = "#FFFFFF";
+    reformal_wdg_align   = "right";
+    reformal_wdg_waction = 0;
+    reformal_wdg_vcolor  = "#eba612";
+    reformal_wdg_cmline  = "#E0E0E0";
+    reformal_wdg_glcolor  = "#105895";
+    reformal_wdg_tbcolor  = "#FFFFFF";
+     
+    reformal_wdg_bimage = "http://epos.bo.ingv.it/assets/images/suggestions.jpg";
+     
+    </script>
+
+<script type="text/javascript"  src="script/ideawidget.js?domain=epos-couch"></script>
+<!--<![endif]-->
+
+<!--
+    <script type="text/javascript" src="script/accordion/script.js"></script>
+-->
+    
+<!--      GOOGLE ANALYTICS  -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28615541-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- END GOOGLE ANALYTICS  -->
+
+
+
+</head>
+<!-- END -->
+<body >
+<div id="wholepage">
+
+    <div id="header" > 
+    <span id="step0"></span>
+
+
+    
+       <div id="search-box">
+    			
+				<div id="search_box_container" ></div>
+				<div id="filter-message" >    <span  id="filter-tooltip" style="cursor:pointer">Help on this searchbar?  </span></div>
+				<div id="search_query">&nbsp;</div>
+				    <span id="step1"></span>
+    </div>
+    <div id="ride-logo"><img alt="RIDE Research Infrastructure Database for EPOS LOGO" src="img/RIDElogo.jpg" />
+    
+    </div>
+
+
+
+
+    </div>
+
+	<div id="main-container">
+		<div id="content">
+			<span id="step2"></span>
+				<div class="toolbar">
+						<span id="step5" style="float:right; margin-right:100px"></span>
+						<div id="item-orderby">Order by: 
+							<select id="item-orderby-select">
+								<option value="ri_name">name</option>
+									<option value="country">country</option>
+									<option value="wg_main">WG</option>
+							</select><a href=# ><img src="img/arrow-up-down.jpg" style="vertical-align:middle" alt="arrow-up-down"></a>
+						</div>
+					<div id="total-items" ># of items... counting</div>
+					
+					<div class="instructions">
+					  click on a row to show info 
+					</div>
+				</div>
+
+				<span id="step4"></span><div id="RUs">
+					<ol id="RU-list"><img src="img/loading/loading-gif-animation.gif" width=80 style=" display:block; padding:50px;float:center; margin:auto;" alt="loading..."></ol>
+				</div>
+			</div>
+
+		<div id="navigare">
+		<ul>
+		<li><a href="#map"> Map</a></li>
+		<li><a href="#stat"> Statistics</a></li>
+		<li id="account">Login</li>
+		</ul>
+	</div>
+	
+		<div id="sidebar">
+
+
+
+						<div  id="map-box">
+
+							
+							<div id="RImap"></div>
+							<div id="map-control-panel"> 
+								<input type=button value="Show RIs list on map"  id="show-on-map-button">   <input type=button value="full screen ON/OFF"  id="full-screen-map" > <b>Legend---</b>      <img src="img/lab-small-icon.png" alt="lab icon" style="vertical-align:text-top;">: Laboratory - <img src="img/seism-station-icon-small.png" alt="lab icon" style="vertical-align:text-top;">: Seismic Station
+								
+							</div>
+						</div>                    
+
+				
+
+						<div  id="stat-box">
+							<span id="step3"></span>
+							
+							<div id="stat-toolbox">
+								
+								
+							
+								<div id="graph"></div>
+								<div id="graph-control-panel">
+									<table >
+										<tr>
+
+											<td>  <input type="text" name="yselect" id="yselect" value="Select Y value" />
+												
+												<ul id="yselectmenu" class="mcdropdown_menu" value="Select Y value">
+													<li rel="default" >SELECT Y AXIS Value</li>
+													<li>General Info
+													<ul>
+														<li rel="ri_name">ri name</li>
+														<li rel="file_path">file path</li>
+														<li rel="country">country</li>
+														<li rel="ri_institution">ri institution</li>
+														<li rel="ri_institution_website">ri institution website</li>
+														<li rel="wg_main">wg main</li>
+														<li rel="wg_related">wg related</li>
+														<li rel="ri_manager">ri manager</li>
+														<li rel="ri_manager_email">ri manager email</li>
+														<li rel="ri_manager_phone">ri manager phone</li>
+														<li rel="ri_manager_institution">ri manager institution</li>
+														<li rel="national_contact_person">national contact person</li>
+														<li rel="national_contact_person_email">national contact person email</li>
+														<li rel="national_contact_person_phone">national contact person phone</li>
+														<li rel="national_contact_person_institution">national contact person institution</li>
+														<li rel="legal_contact_person">legal contact person</li>
+														<li rel="legal_contact_person_email">legal contact person email</li>
+														<li rel="legal_contact_person_phone">legal contact person phone</li>
+														<li rel="legal_contact_person_institution">legal contact person institution</li>
+														<li rel="financial_contact_person">financial contact person</li>
+														<li rel="financial_contact_person_email">financial contact person email</li>
+														<li rel="financial_contact_person_phone">financial contact person phone</li>
+														<li rel="financial_contact_person_institution">financial contact person institution </option>
+													</ul>
+													</li>
+													<li id="financial-dropdown">Financial Info
+													<ul>
+														<li rel="ri_total_value">RI TOT value</li>
+														<li rel="total_labour_costs">Total Labour costs</li>
+														<li rel="total_labour_full_time_equivalent">Total Labour FTE</li>
+														<li rel="annual_running_cost_budget">Annual running cost budget</li>
+														<li rel="total_common_services_participating">Total common services participating</li>
+														<li rel="total_cost_of_RI">Total cost of RI</li>
+														<li rel="total_funding_of_labour">Total funding of labour</li>
+														<li rel="total_funding_of_labour_full_time_equivalent">Total funding of labour FTE</li>
+														<li rel="total_funding_of_running_costs">Total funding of running costs</li>
+														<li rel="total_funding_for_RI">Total funding for RI</li>
+													</ul>
+													</li>
+												
+												</ul>
+													
+													
+				<!--
+													<option value="doctype">doctype</option>
+													<option value="ri_type">ri type</option>
+
+													
+													<option value="kind">kind</option>
+													<option value="quantity">quantity</option>
+													<option value="equipment">equipment</option>
+													<option value="purchase_value">purchase value</option>
+													<option value="year_of_acquisition">year of acquisition</option>
+													<option value="location">location</option>
+													<option value="coverage">coverage</option>
+													<option value="site_of_study">site of study</option>
+													<option value="specifics">specifics</option>
+													<option value="other_details">other details</option>
+													<option value="data_type">data type</option>
+													<option value="data_format">data format</option>
+													<option value="data_transmission">data transmission</option>
+													<option value="field_instrumentation">field instrumentation</option>
+													<option value="data_policy">data policy</option>
+													<option value="status">status</option>
+													<option value="facility_type">facility type</option>
+													<option value="data_centre_acquisition_software">data centre acquisition software</option>
+													<option value="data_centre_hardware">data centre hardware</option>
+													<option value="data_centre_storage_capacity_tb">data centre storage capacity tb</option>
+													<option value="data_centre_growth_rate_storage_capacity_tb-y">data centre growth rate storage capacity tb-y</option>
+													<option value="data_organization">data organization</option>
+													<option value="data_volume_tb">data volume tb</option>
+													<option value="data_volume_growth_rate_tb-y">data volume growth rate tb-y</option>
+													<option value="dc_connectivity_bandwidth">dc connectivity bandwidth</option>
+													<option value="dc_connectivity_protocols">dc connectivity protocols</option>
+													<option value="dc__objective">dc objective</option>
+													<option value="dc_software">dc software</option>
+													<option value="licenced_software">licenced software</option>
+													<option value="ri_website">ri website</option>
+													<option value="dc_language">dc language</option>
+													<option value="dc_std_libraries">dc std libraries</option>
+													<option value="dc_OS">dc OS</option>
+													<option value="equipment_category">equipment category</option>
+													<option value="data_archive_organization">data archive organization</option>
+													<option value="data_archive_volume_tb">data archive volume tb</option>
+													<option value="data_archive_volume_growth_rate_tb-y">data archive volume growth rate tb-y</option>
+													<option value="data_archive_access">data archive access</option>
+													<option value="data_archive_policy">data archive policy</option>
+													<option value="dc_os">dc os</option>
+													<option value="data_archive_data_type">data archive data type</option>
+													<option value="data_archive_software">data archive software</option>
+													<option value="data_archive_hardware">data archive hardware</option>
+													<option value="data_archive_storage_tb">data archive storage tb</option>
+													<option value="data_archive_os">data archive os</option>
+													<option value="cluster_software">cluster software</option>
+													<option value="cluster_storage_capacity_tb">cluster storage capacity tb</option>
+													<option value="cluster_data_organization">cluster data organization</option>
+													<option value="cluster_data_volume">cluster data volume</option>
+													<option value="cluster_data_volume_growth_rate_tb">cluster data volume growth rate tb</option>
+													<option value="cluster_software_language">cluster software language</option>
+													<option value="cluster_os">cluster os</option>
+				-->
+												 </td>
+											<td> </td>
+											
+										</tr>
+										<tr>
+				<!--
+											<td>
+												x Axis
+											</td>
+				-->
+											<td> <input type="text" name="xselect" id="xselect" value="Select X value" />
+												<ul id="xselectmenu" class="mcdropdown_menu" value="Select Y value">
+												<li rel="default" >SELECT X AXIS Value</li>
+												<li rel="country">Country</li>
+												<li rel="ri_institution">RI Institution</li>
+												<li rel="wg_main">WG</li>
+												</ul>
+											</td>
+											<td><input id="count-result" type="text" value="tot" size=1 style="font-weight:bold; visibility:hidden"/>
+												
+											</td>
+										</tr>
+										<tr>
+				<!--
+											<td>group By</td>
+				-->
+											<td>  <input type="text" name="groupselect" id="groupselect" value="Select X value" />
+												<ul id="groupselectmenu" class="mcdropdown_menu" value="Select GroupBy value">
+												<li rel="default" >GROUPBY Value (optional)</li>
+												<li rel="wg_main">wg main</li>
+												<li rel="country">Country</li>	
+												</ul></td>
+											<td> <input id="calculate" type=submit value="GO!"></td>
+										</tr>
+									</table><span id="step6"></span>
+				<!--
+									<a id="count-list" href=# style="font-weight:bold;">Export results in table</a>
+				-->
+								</div>
+							</div>
+						</div>
+
+
+
+			</div>
+				
+		
+	</div>
+</div>
+
+
+
+</body>
+
+<script src="script/app_vars_and_helpers.js"> </script>
+<script src="script/app.js" ></script>
+
+<!-- JQUERY JOYRIDE   TOUR CODE -->
+  	<ol id="joyRideTipContent">
+  	  <li data-id="step0" data-text="NEXT" class="custom">
+  	    <h2>First time here?</h2>
+  	    <p>Click 'next' and follow the tutorial...<br> or close this box </p>
+  	  </li>
+  	  <li data-id="step1" data-text="Next: left column" data-options="tipLocation:top;tipAnimation:fade">
+  	    <h2>R.I.D.E.  Research Infrastructure Database for EPOS </h2>
+  	    <p>...let's start: this page presents a simple two column structure...</p>
+  	  </li>
+  	  <li data-id="step2" data-text="Next: right column" >
+  	    <h2>Left Column</h2>
+        <p>On this column you have the Research Infrastructures (RIs) list</p>
+  	  </li>
+	  <li data-id="step3" data-text="Next: RI popup" >
+  	    <h2>Rigth column</h2>
+        <p>Here you have a statistic tool, which enables you to carry on statistics ONLY on the RIs listed on the left</p>
+  	  </li>
+	  <li data-id="step4" data-text="Next: filter bar" >
+  	    <h2>RI PopUp</h2>
+        <p>Just click on any RI listed here below (try now!), and a pop-up containing RIs info will show up.
+	<p style="font-style:italic">Tip: log in if you have an account, and you'll have access to additional infos</p></p>
+  	  </li>
+	  <li data-id="step5" data-text="Next: first statistic" data-options="tipLocation:bottom;">
+  	    <h2>Filter bar</h2>
+        <p>This search menu enables you to filter the RIs listed just below. Write, just now, 'country:italy', hit enter...<br> ..Only italian RIs are now listed.  
+	<p style="font-style:italic">Tip: All field names in the RI pop-ups can be used as filters!</p></p>
+  	  </li>
+	  <li data-id="step6" data-text="THE END" data-options="tipLocation:bottom;" >
+  	    <h2>First Statistic</h2>
+        <p>Now let's do some stats:<br> 1. Select 'general info:ri name' on y-axis<br> 2. Select 'WG' on x-axis<br>3. Submit <br> ...The number of italian RIs  (i.e. RIs in the left list) with different RI name is shown for each working group</p>
+  	  </li>
+  	</ol>
+
+<!-- JQUERY JOYRIDE   TOUR CODE   END -->
+
+  	<!-- Run the plugin -->
+		<script type="text/javascript">
+			$(window).load(function() {
+				$(this).joyride({
+				 'cookieMonster': true,           // true/false for whether cookies are used
+			      'cookieName': 'JoyRideGO',         // choose your own cookie name
+			      'cookieDomain': 'cloudant.com',           // set to false or yoursite.com
+				});
+			});
+		</script>
+
+    
+
+
+<script type="text/javascript"> 
+function resize(divName){ 
+var htmlheight = document.body.parentNode.clientHeight; 
+var windowheight = window.screen.height; 
+var frame = document.getElementById(divName); 
+if ( htmlheight < windowheight ) 
+ { frame.style.height = windowheight + "px"; } 
+} 
+
+
+</script> 
+
+</html>

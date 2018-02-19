@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>imageTick Example</title>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load('jquery','1.4.2');</script>
+<script type="text/javascript" src="js/jquery.imagetick.js"></script>
+<script type="text/javascript">
+
+	$(function(){
+		
+		$.imageTick.logging = true;
+		
+		$("input[name='favlang']").imageTick({
+			tick_image_path: "images/radio.gif", 
+			no_tick_image_path: "images/no_radio.gif",
+			image_tick_class: "radios"
+		});
+		
+		$("input[name='favcolor']").imageTick({
+			custom_button: function($label){
+			    $label.hide();
+			    return '<div class="custom-radio">' + $label.text() + '</div>';
+			}
+		}).click(function(){
+            alert('You clicked a fav color!');
+        });
+		
+		$("input[name='favsoup']").imageTick({ 
+			custom_button: function($label){
+			    $label.hide();
+			    return '<div class="my-custom-button">' + $label.text() + '</div>';
+			}
+		});
+		
+		$("input[name='bodyparts']").imageTick({ 
+			tick_image_path: "images/check.gif", 
+			no_tick_image_path: "images/no_check.gif"
+		});
+        
+        // Manually disable inputs, use this method instead of $('input').attr('disabled', 'disabled')
+        setTimeout(function(){
+            /// selector must be the id of the input element
+            $('#green').imageTick('disabled', true);
+        }, 5000);
+		
+	});
+	
+	var switched = false;
+	
+	function revealToggle(e){
+		
+		if(!switched){
+			$("input[type='checkbox'],input[type='radio']").css('display','inline');
+			$(e).val('Hide the REAL checkboxes/radios');
+			switched = true;
+		} else {
+			$("input[type='checkbox'],input[type='radio']").css('display','none');
+			$(e).val('Show me the REAL checkboxes/radios');
+			switched = false;
+		}
+		
+	}
+	
+</script>
+<style type="text/css">
+	* {
+		margin:0;
+		padding:0;
+	}
+	body {
+		padding:20px;
+	}
+	h2, h4 {
+		margin:10px 0;
+	}	
+	ul li {
+		list-style:none;
+		margin:5px 0;
+	}
+	input {
+		margin:0 0 0 8px;
+	}
+	.my-custom-button {
+	    padding:5px;
+	    background:#eee;
+	    border:1px solid #ddd;
+	    margin-right: 10px;
+	    width: 300px;
+	}
+	.my-custom-button.selected {
+	    background:#ddd;
+	}
+	.custom-radio {
+	    background:#348b57;
+	    width:300px;
+	    padding:5px;
+	    color:#fff;
+	}
+	.custom-radio.selected {
+	    background:#21653d;
+	}
+	.disabled {
+	    opacity: .5;
+	    filter: alpha(opacity=50);
+	}
+
+</style>
+</head>
+
+<body>
+
+<h2>Radio Buttons</h2>
+<h4>Pick a language</h4>
+<ul>
+	<li>
+		<input type="radio" value="php" id="php" name="favlang" />
+		<label for="php">PHP</label>
+	</li>
+	<li>
+		<input type="radio" id="javascript" value="javascript" name="favlang" checked="checked" />
+		<label for="javascript">Javascript</label>
+	</li>
+	<li>
+		<input type="radio" id="html" value="html" name="favlang" />
+		<label for="html">HTML</label>
+	</li>
+	<li>
+		<input type="radio" id="sql" value="sql" name="favlang" />
+		<label for="sql">SQL</label>
+	</li>
+	<li>
+		<input type="radio" id="japanese" value="japanese" name="favlang" />
+		<label for="japanese">Japanese</label>
+	</li>
+</ul>
+
+<h4>Pick a color</h4>
+<ul>
+	<li>
+		<input type="radio" value="red" id="red" name="favcolor" disabled="disabled" />
+		<label for="red">Red (disabled="disabled" attribute)</label>
+	</li>
+	<li>
+		<input type="radio" value="green" id="green" name="favcolor" checked="checked"  />
+		<label for="green">Green (this will turn disabled in 5 seconds from page load)</label>
+	</li>
+	<li>
+		<input type="radio" value="orange" id="orange" name="favcolor" checked="checked"  />
+		<label for="orange">Orange</label>
+	</li>
+	<li>
+		<input type="radio" value="blue" id="blue" name="favcolor" />
+		<label for="blue">Blue</label>
+	</li>
+</ul>
+
+<br/>
+
+<h2>Checkboxes</h2>
+<h4>Pick some soups</h4>
+<ul>
+	<li>
+		<input type="checkbox" value="pea" name="favsoup" id="pea" checked="checked" />
+		<label for="pea">Pea Soup</label>
+	</li>
+	<li>
+		<input type="checkbox" value="chicken" name="favsoup" id="chicken" />
+		<label for="chicken">Chicken Soup</label>
+	</li>
+</ul>
+
+<h4>Pick some body parts</h4>
+<ul>
+	<li>
+		<input type="checkbox" value="face" name="bodyparts" id="face" checked="checked" />
+		<label for="face">Face</label>
+	</li>
+	<li>
+		<input type="checkbox" value="nose" name="bodyparts" id="nose" />
+		<label for="nose">Nose</label>
+	</li>
+	<li>
+		<input type="checkbox" value="eyes" name="bodyparts" id="eyes" />
+		<label for="eyes">Eyes</label>
+	</li>
+	<li>
+		<input type="checkbox" value="wiener" name="bodyparts" id="wiener" disabled="disabled" />
+		<label for="wiener">Wiener (disabled="disabled" attribute)</label>
+	</li>
+</ul>
+
+<input type="button" name="submit" style="padding:3px;margin:20px 0;" value="Show me the REAL checkboxes/radios" onclick="revealToggle(this);" />
+
+</body>
+</html>
