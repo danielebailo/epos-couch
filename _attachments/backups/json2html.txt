@@ -1,0 +1,16 @@
+json visualization
+
+- solution 1
+http://www.zachhunter.com/2010/04/json-objects-to-html-table/
+
+- solution 2
+http://json.bloople.net/#_output
+
+- solution 3
+http://chris.photobooks.com/json/default.htm
+
+- solution 4
+http://ajaxstack.com/jsonreport/
+
+- solution 5   *********
+http://beebole.com/pure/
