@@ -1,0 +1,62 @@
+<!--
+        admin.html
+        
+        Copyright 2012 daniele <daniele@daniele-VirtualBox>
+        
+        This program is free software; you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation; either version 2 of the License, or
+        (at your option) any later version.
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License
+        along with this program; if not, write to the Free Software
+        Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+        MA 02110-1301, USA.
+        
+        
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>senza nome</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.20" />
+        <script type="text/javascript" src="script/test/vendor/json2.js"></script>
+    <script type="text/javascript" src="script/jquery-1.7.1-min.js"></script>
+    <script type="text/javascript" src="script/jquery.couch.js"></script>
+    <script type="text/javascript" src="script/jquery.couchLogin.js"></script> 
+    
+
+</head>
+
+<body>
+    <div id="account" >accounts </div>
+
+</body>
+    <script type="text/javascript" >
+    //if the user is logged in and we have a username, it begins the game!
+    $(document).ready(
+        $("#account").couchLogin({
+        loggedIn:function(userCtx){
+            $("#account").append("<div > RIDE backup link:    <a href='http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/listalljson/allfields'>http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/listalljson/allfields</a></div>");
+            $("#account").append("<div > RIDE LOG link:    <a href='/epos-log/_design/epos-log/_view/log'>/epos-log/_design/epos-log/_view/log</a></div>");
+        }, //END LOGGED IN CODE
+        
+        loggedOut : function() {
+            $("#account").append("<div style='color:red'>You are not logged in. Please login.</div>");
+                
+        }
+        })
+	);
+    
+    _view/log
+    </script>
+</html>
