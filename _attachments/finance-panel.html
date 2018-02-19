@@ -1,0 +1,68 @@
+<!--
+        admin.html
+        
+        Copyright 2012 daniele <daniele@daniele-VirtualBox>
+        
+        This program is free software; you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation; either version 2 of the License, or
+        (at your option) any later version.
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License
+        along with this program; if not, write to the Free Software
+        Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+        MA 02110-1301, USA.
+        
+        
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Financial Panel</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.20" />
+        <script type="text/javascript" src="script/test/vendor/json2.js"></script>
+    <script type="text/javascript" src="script/jquery-1.7.1-min.js"></script>
+    <script type="text/javascript" src="script/jquery.couch.js"></script>
+    <script type="text/javascript" src="script/jquery.couchLogin.js"></script> 
+    
+
+</head>
+
+<body>
+    <div id="account" >accounts </div>
+
+</body>
+    <script type="text/javascript" >
+    //if the user is logged in and we have a username, it begins the game!
+    $(document).ready(
+        $("#account").couchLogin({
+        loggedIn:function(userCtx){
+            $("#account").append("<h1>Financial Panel</h1><div > GENERAL RI table:    <a href='http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/ritable'> http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/ritable</a></div>");
+            $("#account").append("<div > WG1 per-sensor/type table: <a href='http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/wg1'>http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/wg1</a></div>").append("<div > WG1 per-network table: <a href='http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/wg1list'>http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/wg1list</a></div>").append("<div > WG4 per-network table: <a href='http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/wg4'>http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/wg4</a></div>").append("<div > WG6 per-instrument list table : <a href='http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/wg6'>http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/wg6</a> </div>").append("<div > WG6 per-laboratory list table : <a href='http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/wg6perlab'>http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/wg6perlab</a> </div>").append("<div > DATACENTRE list: <a href='http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/datacentre'>http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_list/tablify_join02/datacentre</a> </div>");
+            
+            
+            $("#account").append("<br><div > Grouped layer 2 Elements: <a href='http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_view/doctypes?group=true'>http://epos-couch.cloudant.com/epos-couch/_design/epos-couch/_view/doctypes?group=true</a> </div>");
+            
+        }, //END LOGGED IN CODE
+        
+        
+        
+        loggedOut : function() {
+            $("#account").append("<div style='color:red'>You are not logged in. Please login.</div>");
+                
+        }
+        })
+	);
+    
+    _view/log
+    </script>
+</html>

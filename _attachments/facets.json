@@ -1,0 +1,5 @@
+['country', 'WG','ri_name'
+{ label: 'country', category: 'location' },
+{ label: 'WG',   category: '' },
+{ label: 'ri_name'}
+]
